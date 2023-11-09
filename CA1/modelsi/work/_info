@@ -1,0 +1,62 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vOC1
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1699447865
+!i10b 1
+!s100 SkoUCiUY7`9[c:0j@TCKH2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Il]V;16?e8_lQW?]1jkLB@1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/alireza/Code/Digital_System/CA1/modelsi
+w1699447596
+8D:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv
+FD:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv
+!i122 27
+L0 2 40
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1699447865.000000
+!s107 D:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+n@o@c1
+vtb1
+R0
+R1
+!i10b 1
+!s100 mJ@hG6Jd`2LJ]mE8iMmmm0
+R2
+IPg^<EA_1AfG^[zFk1RdQ91
+R3
+S1
+R4
+w1699447853
+8D:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv
+FD:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv
+!i122 26
+L0 2 121
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv|
+!i113 1
+R7
+R8
