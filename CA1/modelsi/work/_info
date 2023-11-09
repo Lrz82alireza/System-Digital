@@ -11,26 +11,26 @@ cModel Technology
 dC:/intelFPGA/20.1
 vOC1
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1699447865
+Z1 !s110 1699510364
 !i10b 1
 !s100 SkoUCiUY7`9[c:0j@TCKH2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-Il]V;16?e8_lQW?]1jkLB@1
+I@:3m?9`So0Nae2j`>EED`0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
-Z4 dD:/alireza/Code/Digital_System/CA1/modelsi
-w1699447596
-8D:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv
-FD:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv
-!i122 27
+Z4 dE:/alireza/Code/System-Digital/CA1/modelsi
+w1699507658
+8E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv
+FE:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv
+!i122 51
 L0 2 40
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1699447865.000000
-!s107 D:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv|
+Z6 !s108 1699510364.000000
+!s107 E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv|
 !i113 1
 Z7 o-work work -sv
 Z8 tCvgOpt 0
@@ -39,24 +39,24 @@ vtb1
 R0
 R1
 !i10b 1
-!s100 mJ@hG6Jd`2LJ]mE8iMmmm0
+!s100 `5DAoKLKPlP7T3Tl8Lz^_1
 R2
-IPg^<EA_1AfG^[zFk1RdQ91
+I=k@dY24:fUFYehijEVbTd2
 R3
 S1
 R4
-w1699447853
-8D:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv
-FD:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv
-!i122 26
-L0 2 121
+w1699510359
+8E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q2.sv
+FE:/alireza/Code/System-Digital/CA1/modelsi/testbench_q2.sv
+!i122 50
+L0 2 34
 R5
 r1
 !s85 0
 31
 R6
-!s107 D:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv|
+!s107 E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q2.sv|
 !i113 1
 R7
 R8

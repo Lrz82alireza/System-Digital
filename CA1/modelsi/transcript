@@ -1,0 +1,177 @@
+# Error opening D:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv
+# Path name 'D:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv' doesn't exist.
+# Error opening D:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv
+# Path name 'D:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv' doesn't exist.
+# Error opening D:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv
+# Path name 'D:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv' doesn't exist.
+# Error opening D:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv
+# Path name 'D:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv' doesn't exist.
+# Error opening D:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv
+# Path name 'D:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv' doesn't exist.
+# Error opening D:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv
+# Path name 'D:/alireza/Code/Digital_System/CA1/modelsi/testbench.sv' doesn't exist.
+# Error opening D:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv
+# Path name 'D:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv' doesn't exist.
+# Compile of testbench_q2.sv failed with 1 errors.
+# Compile of Vdiscription_q2.sv was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of testbench_q2.sv failed with 1 errors.
+# Compile of Vdiscription_q2.sv was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of testbench_q2.sv was successful with warnings.
+# Compile of Vdiscription_q2.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of testbench_q2.sv was successful with warnings.
+# Compile of Vdiscription_q2.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb1
+# vsim -gui work.tb1 
+# Start time: 09:31:32 on Nov 09,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.OC1
+add wave -position end  sim:/tb1/aa
+add wave -position end  sim:/tb1/bb
+add wave -position end  sim:/tb1/cc
+add wave -position end  sim:/tb1/outy1
+add wave -position end  sim:/tb1/outy0
+run -all
+# WARNING: No extended dataflow license exists
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of testbench_q2.sv was successful with warnings.
+# Compile of Vdiscription_q2.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb1
+# End time: 09:33:29 on Nov 09,2023, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 12
+# vsim -gui work.tb1 
+# Start time: 09:33:29 on Nov 09,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.OC1
+add wave -position end  sim:/tb1/aa
+add wave -position end  sim:/tb1/bb
+add wave -position end  sim:/tb1/cc
+add wave -position end  sim:/tb1/outy1
+add wave -position end  sim:/tb1/outy0
+run -all
+# Compile of testbench_q2.sv was successful.
+# Compile of Vdiscription_q2.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb1
+# Loading work.OC1
+# Compile of testbench_q2.sv was successful.
+# Compile of Vdiscription_q2.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb1
+# End time: 09:35:12 on Nov 09,2023, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb1 
+# Start time: 09:35:12 on Nov 09,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.OC1
+add wave -position end  sim:/tb1/aa
+add wave -position end  sim:/tb1/bb
+add wave -position end  sim:/tb1/cc
+add wave -position end  sim:/tb1/outy1
+add wave -position end  sim:/tb1/outy0
+run -all
+# Compile of testbench_q2.sv was successful.
+# Compile of Vdiscription_q2.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb1
+# End time: 09:36:44 on Nov 09,2023, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb1 
+# Start time: 09:36:44 on Nov 09,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.OC1
+add wave -position end  sim:/tb1/aa
+add wave -position end  sim:/tb1/bb
+add wave -position end  sim:/tb1/cc
+add wave -position end  sim:/tb1/outy1
+add wave -position end  sim:/tb1/outy0
+run -all
+# Compile of testbench_q2.sv was successful.
+# Compile of Vdiscription_q2.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb1
+# End time: 09:37:51 on Nov 09,2023, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb1 
+# Start time: 09:37:51 on Nov 09,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.OC1
+add wave -position end  sim:/tb1/aa
+add wave -position end  sim:/tb1/bb
+add wave -position end  sim:/tb1/cc
+add wave -position end  sim:/tb1/outy1
+add wave -position end  sim:/tb1/outy0
+run -all
+# Compile of testbench_q2.sv was successful.
+# Compile of Vdiscription_q2.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of testbench_q2.sv was successful.
+# Compile of Vdiscription_q2.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb1
+# End time: 09:39:48 on Nov 09,2023, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 3
+# vsim -gui work.tb1 
+# Start time: 09:39:48 on Nov 09,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.OC1
+add wave -position end  sim:/tb1/aa
+add wave -position end  sim:/tb1/bb
+add wave -position end  sim:/tb1/cc
+add wave -position end  sim:/tb1/outy1
+add wave -position end  sim:/tb1/outy0
+run -all
+# Compile of testbench_q2.sv was successful.
+# Compile of Vdiscription_q2.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb1
+# End time: 09:41:02 on Nov 09,2023, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb1 
+# Start time: 09:41:02 on Nov 09,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.OC1
+add wave -position end  sim:/tb1/aa
+add wave -position end  sim:/tb1/bb
+add wave -position end  sim:/tb1/cc
+add wave -position end  sim:/tb1/outy1
+add wave -position end  sim:/tb1/outy0
+run -all
+# ** Note: $stop    : E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q2.sv(32)
+#    Time: 1300 ns  Iteration: 0  Instance: /tb1
+# Break in Module tb1 at E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q2.sv line 32
+# Compile of testbench_q2.sv was successful.
+# Compile of Vdiscription_q2.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb1
+# End time: 09:42:50 on Nov 09,2023, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb1 
+# Start time: 09:42:50 on Nov 09,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.OC1
+add wave -position end  sim:/tb1/aa
+add wave -position end  sim:/tb1/bb
+add wave -position end  sim:/tb1/cc
+add wave -position end  sim:/tb1/outy1
+add wave -position end  sim:/tb1/outy0
+run -all
+# ** Note: $stop    : E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q2.sv(31)
+#    Time: 1200 ns  Iteration: 0  Instance: /tb1
+# Break in Module tb1 at E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q2.sv line 31

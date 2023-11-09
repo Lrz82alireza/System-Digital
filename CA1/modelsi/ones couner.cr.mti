@@ -1,4 +1,4 @@
-D:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv {1 {vlog -work work -sv -stats=none D:/alireza/Code/Digital_System/CA1/modelsi/Vdiscription.sv
+E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv {1 {vlog -work work -sv -stats=none E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module OC1
 
