@@ -4,7 +4,7 @@ module tb1();
     logic aa, bb, cc;
     wire outy1, outy0;
 
-    OC1 myoc(.y1(outy1), .y0(outy0), .a(aa), .b(bb), .c(cc));
+    OC1 q1(.y1(outy1), .y0(outy0), .a(aa), .b(bb), .c(cc));
 
     initial begin
 

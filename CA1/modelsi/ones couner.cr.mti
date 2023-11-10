@@ -1,8 +1,29 @@
-E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv {1 {vlog -work work -sv -stats=none E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv
+E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q3.sv {1 {vlog -work work -sv -stats=none E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q3.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module OC1
+-- Compiling module tb3
 
 Top level modules:
-	OC1
+	tb3
+
+} {} {}} E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv {1 {vlog -work work -sv -stats=none E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OC1_q2
+
+Top level modules:
+	OC1_q2
+
+} {} {}} E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q3.sv {1 {vlog -work work -sv -stats=none E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OC1_q3
+
+Top level modules:
+	OC1_q3
+
+} {} {}} E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q2.sv {1 {vlog -work work -sv -stats=none E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb1
+
+Top level modules:
+	tb1
 
 } {} {}}

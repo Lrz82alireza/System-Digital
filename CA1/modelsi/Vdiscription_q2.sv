@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module OC1 (output y0, y1, input a, b, c);
+module OC1_q2 (output y0, y1, input a, b, c);
     supply0 GND;
     supply1 VDD;
 
