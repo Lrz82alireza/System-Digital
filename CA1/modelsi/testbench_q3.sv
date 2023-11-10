@@ -11,26 +11,26 @@ module tb3();
     initial begin
 
         // logic table
-        #200 aa=0;bb=0;cc=0;
-        #200 aa=0;bb=0;cc=1;
-        #200 aa=0;bb=1;cc=0;
-        #200 aa=0;bb=1;cc=1;
-        #200 aa=1;bb=0;cc=0;
-        #200 aa=1;bb=0;cc=1;
-        #200 aa=1;bb=1;cc=0;
-        #200 aa=1;bb=1;cc=1;
+        #100 aa=0;bb=0;cc=0;
+        #100 aa=0;bb=0;cc=1;
+        #100 aa=0;bb=1;cc=0;
+        #100 aa=0;bb=1;cc=1;
+        #100 aa=1;bb=0;cc=0;
+        #100 aa=1;bb=0;cc=1;
+        #100 aa=1;bb=1;cc=0;
+        #100 aa=1;bb=1;cc=1;
 
         // next test
-        #200 {aa, bb, cc} = 3'bzzz;
+        #100 {aa, bb, cc} = 3'bzzz;
 
         // some of worstcases
 
         // y1 to1 & y0 to0
-        #200 aa=0;bb=1;cc=1;
+        #100 aa=0;bb=1;cc=1;
         // y1 to0 & y0 to1
-        #200 aa=0;bb=0;cc=1;
+        #100 aa=0;bb=0;cc=1;
 
-        #200 $stop;
+        #100 $stop;
 
     end
 
