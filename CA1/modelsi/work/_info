@@ -20,120 +20,224 @@ Z2 VDg1SIo80bB@j0V0VzS_@n1
 S1
 Z3 dE:/alireza/Code/System-Digital/CA1/modelsi
 w1699507658
-Z4 8E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv
-Z5 FE:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv
+8E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv
+FE:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv
 !i122 93
-Z6 L0 2 40
-Z7 OV;L;2020.1;71
+Z4 L0 2 40
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
 !s108 1699603451.000000
-Z8 !s107 E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv|
-Z9 !s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv|
+!s107 E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q2.sv|
 !i113 1
-Z10 o-work work -sv
-Z11 tCvgOpt 0
+Z6 o-work work -sv
+Z7 tCvgOpt 0
 n@o@c1
 vOC1_q2
 R0
-Z12 !s110 1699604493
+Z8 !s110 1699630525
 !i10b 1
 !s100 [[4=BI>j7b9_83XeN;MN=1
 R1
-Ia_[gHT95SIlU`eOU<]:^l2
+IS1HOHf9a`JLL?`i11mnQ^2
 R2
 S1
 R3
 w1699603541
+8E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q2.sv
+FE:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q2.sv
+!i122 264
 R4
 R5
-!i122 113
-R6
-R7
 r1
 !s85 0
 31
-Z13 !s108 1699604493.000000
-R8
-R9
+Z9 !s108 1699630525.000000
+!s107 E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q2.sv|
 !i113 1
-R10
-R11
+R6
+R7
 n@o@c1_q2
 vOC1_q3
 R0
-R12
+R8
 !i10b 1
 !s100 oFgZ50n8fn]I1iT18Qo^N0
 R1
-IP8?J2m<3NXDV_E<8?FGI>1
+ITNgD?SMQD[5JcTOA7NH?Y1
 R2
 S1
 R3
 w1699603442
-8E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q3.sv
-FE:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q3.sv
-!i122 114
+8E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q3.sv
+FE:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q3.sv
+!i122 265
 L0 2 12
-R7
+R5
 r1
 !s85 0
 31
-R13
-!s107 E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q3.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/alireza/Code/System-Digital/CA1/modelsi/Vdiscription_q3.sv|
+R9
+!s107 E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q3.sv|
 !i113 1
-R10
-R11
+R6
+R7
 n@o@c1_q3
+vOC1_q4
+R0
+R8
+!i10b 1
+!s100 Q5YONU=oN?f53YA9fa<<U1
+R1
+IW3:]<Vk9c?X2OMm0ZOWHQ0
+R2
+S1
+R3
+w1699605179
+8E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q4.sv
+FE:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q4.sv
+!i122 266
+L0 2 6
+R5
+r1
+!s85 0
+31
+R9
+!s107 E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q4.sv|
+!i113 1
+R6
+R7
+n@o@c1_q4
+vOC1_q5
+R0
+R8
+!i10b 1
+!s100 OORM7YCZWPQl6MYEmk>hJ1
+R1
+IPa>zG[Mea@M0^mhT>?;zE2
+R2
+S1
+R3
+w1699607659
+8E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q5.sv
+FE:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q5.sv
+!i122 267
+Z10 L0 2 10
+R5
+r1
+!s85 0
+31
+R9
+!s107 E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q5.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q5.sv|
+!i113 1
+R6
+R7
+n@o@c1_q5
+vOC1_q6
+R0
+Z11 !s110 1699630526
+!i10b 1
+!s100 ^a?H766C4S7`f<h9HZSek2
+R1
+IUNbKGXknB=OSP?Ve?Vf1>2
+R2
+S1
+R3
+w1699607723
+8E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q6.sv
+FE:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q6.sv
+!i122 268
+R10
+R5
+r1
+!s85 0
+31
+R9
+!s107 E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q6.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q6.sv|
+!i113 1
+R6
+R7
+n@o@c1_q6
+vOC1_q7
+R0
+R11
+!i10b 1
+!s100 el;GfCVaTO_hmV<gkiO2N2
+R1
+Id_5O9e64j>ZBhDk^EgWIc1
+R2
+S1
+R3
+w1699630523
+8E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q7.sv
+FE:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q7.sv
+!i122 269
+R10
+R5
+r1
+!s85 0
+31
+!s108 1699630526.000000
+!s107 E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q7.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/alireza/Code/System-Digital/CA1/modelsi/project_files/Vdiscription_q7.sv|
+!i113 1
+R6
+R7
+n@o@c1_q7
 vtb1
 R0
-R12
+R8
 !i10b 1
 !s100 N;Q2khgOf^ZO6eSO<jz>M1
 R1
-IeF0HIFmYSk8GII<B?F8cf0
+IKGd?[h5P64J[:YC6=U_IJ3
 R2
 S1
 R3
 w1699603276
-8E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q2.sv
-FE:/alireza/Code/System-Digital/CA1/modelsi/testbench_q2.sv
-!i122 112
+8E:/alireza/Code/System-Digital/CA1/modelsi/project_files/testbench_q2.sv
+FE:/alireza/Code/System-Digital/CA1/modelsi/project_files/testbench_q2.sv
+!i122 261
 L0 2 34
-R7
+R5
 r1
 !s85 0
 31
-R13
-!s107 E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q2.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q2.sv|
+R9
+!s107 E:/alireza/Code/System-Digital/CA1/modelsi/project_files/testbench_q2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/alireza/Code/System-Digital/CA1/modelsi/project_files/testbench_q2.sv|
 !i113 1
-R10
-R11
+R6
+R7
 vtb3
 R0
-R12
+R8
 !i10b 1
-!s100 goTP4mnHU@7cK?<baab?60
+!s100 U2IZ8Ifm4Wj^ACJ^PoODX1
 R1
-IPlYn9eCbfSO=@z>Gzg1aC1
+I4GRbXaCeAMz>nKl@iUm_A3
 R2
 S1
 R3
-w1699604482
-8E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q3.sv
-FE:/alireza/Code/System-Digital/CA1/modelsi/testbench_q3.sv
-!i122 115
-L0 2 36
-R7
+w1699605255
+8E:/alireza/Code/System-Digital/CA1/modelsi/project_files/testbench_q4.sv
+FE:/alireza/Code/System-Digital/CA1/modelsi/project_files/testbench_q4.sv
+!i122 263
+L0 2 37
+R5
 r1
 !s85 0
 31
-R13
-!s107 E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q3.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q3.sv|
+R9
+!s107 E:/alireza/Code/System-Digital/CA1/modelsi/project_files/testbench_q4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/alireza/Code/System-Digital/CA1/modelsi/project_files/testbench_q4.sv|
 !i113 1
-R10
-R11
+R6
+R7
