@@ -46,3 +46,5 @@ run -all
 # ** Note: $stop    : E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q3.sv(33)
 #    Time: 1200 ns  Iteration: 0  Instance: /tb3
 # Break in Module tb3 at E:/alireza/Code/System-Digital/CA1/modelsi/testbench_q3.sv line 33
+# End time: 13:26:48 on Nov 10,2023, Elapsed time: 1:35:09
+# Errors: 0, Warnings: 1
