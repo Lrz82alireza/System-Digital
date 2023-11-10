@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module OC1_q6 (output [3:0] out, input [14:0] in);
+module OC1_q7 (output [3:0] out, input [14:0] in);
 
     wire [6:0] w;
 
