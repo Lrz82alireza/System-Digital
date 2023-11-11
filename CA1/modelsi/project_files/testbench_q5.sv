@@ -4,7 +4,7 @@ module tb6();
     logic [6:0] in;
     wire [2:0] out;
 
-    OC1_q6 q6(.out(out), .in(in));
+    OC1_q5 q5(.out(out), .in(in));
 
     initial begin
 

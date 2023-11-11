@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module tb3();
+module tb4();
 
     logic aa, bb, cc;
     wire q2y1, q2y0;
