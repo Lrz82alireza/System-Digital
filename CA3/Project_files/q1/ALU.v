@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module ALU (input signed [15:0] inA, inB, output signed [15:0] outW, input inC, input [3:0] opc, output zer, neg);
+module ALU(input signed [15:0] inA, inB, output signed [15:0] outW, input inC, input [2:0] opc, output zer, neg);
     always @ (inA, inB, opc) begin
         outW = 16'b0;
         zer = 1'b0;
