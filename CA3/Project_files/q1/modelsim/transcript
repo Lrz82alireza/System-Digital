@@ -2885,3 +2885,7 @@ set sim_time [time {run -all}]
 # 77272 microseconds per iteration
 set sim_time [time {run -all}]
 # 74355 microseconds per iteration
+# Break key hit
+quit -sim
+# End time: 22:43:02 on Nov 24,2023, Elapsed time: 1:27:01
+# Errors: 0, Warnings: 1

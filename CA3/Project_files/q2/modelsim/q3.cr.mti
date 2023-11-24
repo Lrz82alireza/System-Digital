@@ -1,0 +1,32 @@
+E:/alireza/Code/System-Digital/CA3/Project_files/q2/tb.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/CA3/Project_files/q2/tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module NOT
+-- Compiling module NAND
+-- Compiling module NOR
+-- Compiling module DFF
+-- Compiling module DFF_PP0
+-- Compiling module DFF_PP1
+
+Top level modules:
+	NOT
+	NAND
+	NOR
+	DFF
+	DFF_PP0
+	DFF_PP1
+
+} {} {}} E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}}

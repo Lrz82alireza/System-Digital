@@ -1,0 +1,226 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vALU
+Z0 !s110 1700854256
+!i10b 1
+!s100 S^Thb1[R5z7bHiZ6]MJAC2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IV6gdnUGa7JFAYj3Ui66hJ1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim
+w1700853539
+8E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v
+FE:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v
+!i122 17
+L0 2 23
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1700854256.000000
+!s107 E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@a@l@u
+vALU_synth
+R0
+!i10b 1
+!s100 FNENCN;MllSF:Z6aC6f1o3
+R1
+ISA[Md;1dI]R9hnX_KQJM30
+R2
+R3
+w1700854201
+8E:/alireza/Code/System-Digital/CA3/Project_files/q2/synth.v
+FE:/alireza/Code/System-Digital/CA3/Project_files/q2/synth.v
+!i122 20
+L0 5 4080
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/alireza/Code/System-Digital/CA3/Project_files/q2/synth.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/CA3/Project_files/q2/synth.v|
+!i113 1
+R6
+R7
+n@a@l@u_synth
+vDFF
+R0
+!i10b 1
+!s100 9Kc]>n0;m0OTK<i3l8?_:0
+R1
+IYNGW=84B2:[`3Q2>OA3NJ2
+R2
+R3
+Z8 w1638820552
+Z9 8E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v
+Z10 FE:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v
+!i122 19
+L0 20 6
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v|
+!i113 1
+R6
+R7
+n@d@f@f
+vDFF_PP0
+R0
+!i10b 1
+!s100 Ig4QjH@^Nee5aAjSWm?Q_2
+R1
+IdfgL;XMkD_L83EYi]@m`[3
+R2
+R3
+R8
+R9
+R10
+!i122 19
+L0 27 10
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@d@f@f_@p@p0
+vDFF_PP1
+R0
+!i10b 1
+!s100 UiV@]1Uc:BLDF`BdJoboO2
+R1
+IkbkJo2o:hS?c;ahj@jdoU1
+R2
+R3
+R8
+R9
+R10
+!i122 19
+L0 38 10
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@d@f@f_@p@p1
+vNAND
+R0
+!i10b 1
+!s100 iQeT?e=ifMkPc<9Y^9B8e2
+R1
+IgSY2M0=3R[hQgcKJdI5RY2
+R2
+R3
+R8
+R9
+R10
+!i122 19
+L0 8 5
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@n@a@n@d
+vNOR
+R0
+!i10b 1
+!s100 jD8b28P?Y<Be0n5^SEN6T2
+R1
+IIAZ7i9zfmjLSSz=PC?HBB3
+R2
+R3
+R8
+R9
+R10
+!i122 19
+L0 14 5
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@n@o@r
+vNOT
+R0
+!i10b 1
+!s100 3Tm5Z8>`m[E>PKjj4J_TZ3
+R1
+IoJZ]<;jNhz6J:A?UHQRa]0
+R2
+R3
+R8
+R9
+R10
+!i122 19
+L0 2 5
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@n@o@t
+vtb
+R0
+!i10b 1
+!s100 0`eJ:Qbh:SiK_XP1E`4VU0
+R1
+IJV37=SaTb9jk4kCm^b_Vg1
+R2
+R3
+w1700853632
+8E:/alireza/Code/System-Digital/CA3/Project_files/q2/tb.v
+FE:/alireza/Code/System-Digital/CA3/Project_files/q2/tb.v
+!i122 18
+L0 2 20
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/alireza/Code/System-Digital/CA3/Project_files/q2/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/CA3/Project_files/q2/tb.v|
+!i113 1
+R6
+R7

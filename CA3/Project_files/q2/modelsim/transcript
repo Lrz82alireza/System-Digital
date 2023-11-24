@@ -1,0 +1,76 @@
+# Compile of ALU.v failed with 1 errors.
+# Compile of synth.v was successful.
+# Compile of tb.v was successful.
+# Compile of mycells.v failed with 1 errors.
+# 4 compiles, 2 failed with 2 errors.
+# Compile of ALU.v was successful.
+# Compile of synth.v was successful.
+# Compile of tb.v was successful.
+# Compile of mycells.v failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of ALU.v was successful.
+# Compile of synth.v was successful.
+# Compile of tb.v was successful.
+# Compile of mycells.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of synth.v was successful.
+# Compile of tb.v was successful.
+# Compile of mycells.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of synth.v was successful.
+# Compile of tb.v was successful.
+# Compile of mycells.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 22:50:50 on Nov 24,2023
+# Loading work.tb
+# Loading work.ALU
+# Loading work.ALU_synth
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+add wave -position end  sim:/tb/aa
+add wave -position end  sim:/tb/bb
+add wave -position end  sim:/tb/opc
+add wave -position end  sim:/tb/cc
+add wave -position end  sim:/tb/ww
+add wave -position end  sim:/tb/ww_y
+add wave -position end  sim:/tb/zer
+add wave -position end  sim:/tb/neg
+add wave -position end  sim:/tb/zer_y
+add wave -position end  sim:/tb/neg_y
+run -all
+quit -sim
+# End time: 22:52:44 on Nov 24,2023, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 12
+# Compile of ALU.v was successful.
+# Compile of tb.v was successful.
+# Compile of mycells.v was successful.
+# Compile of synth.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 23:01:05 on Nov 24,2023
+# Loading work.tb
+# Loading work.ALU
+# Loading work.ALU_synth
+# Loading work.NOT
+# Loading work.NOR
+# Loading work.NAND
+add wave -position end  sim:/tb/aa
+add wave -position end  sim:/tb/bb
+add wave -position end  sim:/tb/opc
+add wave -position end  sim:/tb/cc
+add wave -position end  sim:/tb/ww
+add wave -position end  sim:/tb/ww_y
+add wave -position end  sim:/tb/zer
+add wave -position end  sim:/tb/neg
+add wave -position end  sim:/tb/zer_y
+add wave -position end  sim:/tb/neg_y
+run -all
+quit -sim
+# End time: 23:03:05 on Nov 24,2023, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 4

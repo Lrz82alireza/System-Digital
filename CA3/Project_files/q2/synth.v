@@ -2,7 +2,7 @@
 
 (* top =  1  *)
 (* src = "Project_files/q2/ALU.v:2" *)
-module ALU(inA, inB, outW, inC, opc, zer, neg);
+module ALU_synth(inA, inB, outW, inC, opc, zer, neg);
   wire _0000_;
   wire _0001_;
   wire _0002_;
@@ -4002,7 +4002,7 @@ module ALU(inA, inB, outW, inC, opc, zer, neg);
   NAND _1367_ (
     .A(_0642_),
     .B(_0638_),
-    .Y(outW[15])
+    .Y(neg)
   );
   NOR _1368_ (
     .A(outW[1]),
@@ -4076,9 +4076,9 @@ module ALU(inA, inB, outW, inC, opc, zer, neg);
   );
   NOR _1382_ (
     .A(_0658_),
-    .B(outW[15]),
+    .B(neg),
     .Y(zer)
   );
-  assign neg = 1'bx;
+  assign outW[15] = neg;
   assign \out[6]  = { inA[7:0], inB[7:0] };
 endmodule
