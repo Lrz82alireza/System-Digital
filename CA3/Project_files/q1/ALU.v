@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module ALU(input signed [15:0] inA, inB, output signed [15:0] outW, input inC, input [2:0] opc, output zer, neg);
+module ALU(input signed [15:0] inA, inB, output reg [15:0] outW, input inC, input [2:0] opc, output reg zer, neg);
     always @ (inA, inB, opc) begin
         outW = 16'b0;
         zer = 1'b0;
@@ -12,7 +12,7 @@ module ALU(input signed [15:0] inA, inB, output signed [15:0] outW, input inC, i
             3'b011: outW = inA + inB >>> 1;
             3'b100: outW = inA & inB;
             3'b101: outW = inA | inB;
-            3'b110: outW = {inA[15:0], inB[15:0]};
+            3'b110: outW = {inA[7:0], inB[7:0]};
             default: outW = 16'b0;
         endcase
 
