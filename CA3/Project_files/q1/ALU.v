@@ -9,7 +9,7 @@ module ALU(input signed [15:0] inA, inB, output reg [15:0] outW, input inC, inpu
             3'b000: outW = ~inA + 1;
             3'b001: outW = inA + 1;
             3'b010: outW = inA + inB + inC;
-            3'b011: outW = inA + inB >>> 1;
+            3'b011: outW = inA + (inB >>> 1);
             3'b100: outW = inA & inB;
             3'b101: outW = inA | inB;
             3'b110: outW = {inA[7:0], inB[7:0]};

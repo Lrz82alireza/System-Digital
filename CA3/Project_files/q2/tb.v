@@ -9,9 +9,10 @@ module tb();
     wire [15:0] ww, ww_y;
     wire zer, neg, zer_y, neg_y;
 
-    ALU alu(.inA(aa), .inB(bb), .inC(cc), .outW(ww), .opc(opc), .zer(zer), .neg(neg));
+    // ALU alu(.inA(aa), .inB(bb), .inC(cc), .outW(ww), .opc(opc), .zer(zer), .neg(neg));
+    ALU_min ALU_min(.inA(aa), .inB(bb), .inC(cc), .outW(ww), .opc(opc), .zer(zer), .neg(neg));
     ALU_synth alu_y(.inA(aa), .inB(bb), .inC(cc), .outW(ww_y), .opc(opc), .zer(zer_y), .neg(neg_y));
-
+    
 
     initial opc = 3'b0;
     initial {aa, bb, cc} = $random;

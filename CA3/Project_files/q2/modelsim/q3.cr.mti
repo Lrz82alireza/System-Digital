@@ -1,4 +1,18 @@
-E:/alireza/Code/System-Digital/CA3/Project_files/q2/tb.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/CA3/Project_files/q2/tb.v
+E:/alireza/Code/System-Digital/CA3/Project_files/q2/synth.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/CA3/Project_files/q2/synth.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_synth
+
+Top level modules:
+	ALU_synth
+
+} {} {}} E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} E:/alireza/Code/System-Digital/CA3/Project_files/q2/tb.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/CA3/Project_files/q2/tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module tb
 
@@ -21,12 +35,5 @@ Top level modules:
 	DFF
 	DFF_PP0
 	DFF_PP1
-
-} {} {}} E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ALU
-
-Top level modules:
-	ALU
 
 } {} {}}

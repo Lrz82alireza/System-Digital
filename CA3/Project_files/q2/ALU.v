@@ -5,7 +5,7 @@ module ALU(input signed [15:0] inA, inB, output reg [15:0] outW, input inC, inpu
     assign out[0] = ~inA + 1;
     assign out[1] = inA + 1;
     assign out[2] = inA + inB + inC;
-    assign out[3] = inA + inB >>> 1;
+    assign out[3] = inA + (inB >>> 1);
     assign out[4] = inA & inB;
     assign out[5] = inA | inB;
     assign out[6] = {inA[7:0], inB[7:0]};
