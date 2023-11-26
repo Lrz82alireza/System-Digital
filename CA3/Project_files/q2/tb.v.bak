@@ -10,8 +10,8 @@ module tb();
     wire zer, neg, zer_y, neg_y, zer_x, neg_x;
 
     // ALU alu(.inA(aa), .inB(bb), .inC(cc), .outW(ww), .opc(opc), .zer(zer), .neg(neg));
-    // ALU_min ALU_min(.inA(aa), .inB(bb), .inC(cc), .outW(ww), .opc(opc), .zer(zer), .neg(neg));
-    ALU_min_synth alu_x(.inA(aa), .inB(bb), .inC(cc), .outW(ww_x), .opc(opc), .zer(zer_x), .neg(neg_x));
+    ALU_min ALU_min(.inA(aa), .inB(bb), .inC(cc), .outW(ww), .opc(opc), .zer(zer), .neg(neg));
+    // ALU_min_synth alu_x(.inA(aa), .inB(bb), .inC(cc), .outW(ww_x), .opc(opc), .zer(zer_x), .neg(neg_x));
     // ALU_synth alu_y(.inA(aa), .inB(bb), .inC(cc), .outW(ww_y), .opc(opc), .zer(zer_y), .neg(neg_y));
     
 
