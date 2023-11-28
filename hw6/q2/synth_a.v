@@ -2,7 +2,7 @@
 
 (* top =  1  *)
 (* src = "hw6\\q2\\a.v:1" *)
-module a(a, b, ci, sum, co);
+module adder_a_synth(a, b, ci, sum, co);
   wire _00_;
   wire _01_;
   wire _02_;

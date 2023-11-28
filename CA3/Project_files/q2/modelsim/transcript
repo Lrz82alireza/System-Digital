@@ -103,3 +103,10 @@ add wave -position end  sim:/tb/lt
 add wave -position end  sim:/tb/eq
 add wave -position end  sim:/tb/gt
 run -all
+quit -sim
+# End time: 06:13:16 on Nov 28,2023, Elapsed time: 1:28:18
+# Errors: 0, Warnings: 1
+# Compile of a.v was successful.
+# Compile of c.v was successful.
+# Compile of synth_a.v was successful.
+# 3 compiles, 0 failed with no errors.
