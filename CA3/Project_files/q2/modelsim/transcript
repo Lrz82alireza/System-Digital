@@ -1,634 +1,105 @@
-# Compile of ALU.v was successful.
+# Compile of c.v was successful.
+# Compile of d.v failed with 1 errors.
 # Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# 4 compiles, 0 failed with no errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of c.v was successful.
+# Compile of d.v failed with 1 errors.
+# Compile of tb.v was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of c.v was successful.
+# Compile of d.v failed with 1 errors.
+# Compile of tb.v was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of c.v was successful.
+# Compile of d.v was successful.
+# Compile of tb.v was successful.
+# 3 compiles, 0 failed with no errors.
 vsim -gui work.tb
 # vsim -gui work.tb 
-# Start time: 13:33:50 on Nov 26,2023
+# Start time: 04:39:04 on Nov 28,2023
 # Loading work.tb
-# Loading work.ALU
-# Loading work.ALU_synth
-# Loading work.NOT
-# Loading work.NOR
-# Loading work.NAND
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
+# Loading work.comprator_8
+# Loading work.comprator_2_bit
+add wave -position end  sim:/tb/a
+add wave -position end  sim:/tb/b
+add wave -position end  sim:/tb/lt
+add wave -position end  sim:/tb/eq
+add wave -position end  sim:/tb/gt
 run -all
-set sim_time [time {run -all}]
-# 66435 microseconds per iteration
-set sim_time [time {run -all}]
-# 59424 microseconds per iteration
-set sim_time [time {run -all}]
-# 54709 microseconds per iteration
-set sim_time [time {run -all}]
-# 58015 microseconds per iteration
-set sim_time [time {run -all}]
-# 57424 microseconds per iteration
-set sim_time [time {run -all}]
-# 54653 microseconds per iteration
-set sim_time [time {run -all}]
-# 59009 microseconds per iteration
-
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# 4 compiles, 0 failed with no errors.
-vsim -gui work.tb
-# End time: 14:15:44 on Nov 26,2023, Elapsed time: 0:41:54
-# Errors: 0, Warnings: 3
-# vsim -gui work.tb 
-# Start time: 14:15:44 on Nov 26,2023
-# Loading work.tb
-# Loading work.ALU
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# 4 compiles, 0 failed with no errors.
-run -all
-set sim_time [time {run -all}]
-# 74584 microseconds per iteration
-set sim_time [time {run -all}]
-# 73875 microseconds per iteration
-set sim_time [time {run -all}]
-# 69702 microseconds per iteration
-set sim_time [time {run -all}]
-# 69221 microseconds per iteration
-set sim_time [time {run -all}]
-# 68409 microseconds per iteration
-set sim_time [time {run -all}]
-# 67564 microseconds per iteration
-set sim_time [time {run -all}]
-# 73888 microseconds per iteration
-set sim_time [time {run -all}]
-# 68660 microseconds per iteration
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# 4 compiles, 0 failed with no errors.
-vsim -gui work.tb
-# End time: 15:52:06 on Nov 26,2023, Elapsed time: 1:36:22
-# Errors: 0, Warnings: 3
-# vsim -gui work.tb 
-# Start time: 15:52:06 on Nov 26,2023
-# Loading work.tb
-# Loading work.ALU_synth
-# Loading work.NOT
-# Loading work.NOR
-# Loading work.NAND
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
-run -all
-set sim_time [time {run -all}]
-# 51724 microseconds per iteration
-set sim_time [time {run -all}]
-# 44173 microseconds per iteration
-set sim_time [time {run -all}]
-# 44893 microseconds per iteration
-set sim_time [time {run -all}]
-# 44584 microseconds per iteration
-set sim_time [time {run -all}]
-# 43126 microseconds per iteration
-set sim_time [time {run -all}]
-# 44386 microseconds per iteration
-set sim_time [time {run -all}]
-# 44219 microseconds per iteration
-set sim_time [time {run -all}]
-# 43486 microseconds per iteration
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# 4 compiles, 0 failed with no errors.
-vsim -gui work.tb
-# End time: 16:05:41 on Nov 26,2023, Elapsed time: 0:13:35
-# Errors: 0, Warnings: 2
-# vsim -gui work.tb 
-# Start time: 16:05:41 on Nov 26,2023
-# Loading work.tb
-# Loading work.ALU
-# Loading work.ALU_synth
-# Loading work.NOT
-# Loading work.NOR
-# Loading work.NAND
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
-run -all
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# 4 compiles, 0 failed with no errors.
-vsim -gui work.tb
-# End time: 16:06:52 on Nov 26,2023, Elapsed time: 0:01:11
-# Errors: 0, Warnings: 2
-# vsim -gui work.tb 
-# Start time: 16:06:52 on Nov 26,2023
-# Loading work.tb
-# Loading work.ALU
-# Loading work.ALU_synth
-# Loading work.NOT
-# Loading work.NOR
-# Loading work.NAND
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
-run -all
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# 5 compiles, 0 failed with no errors.
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.tb
-# End time: 19:03:58 on Nov 26,2023, Elapsed time: 2:57:06
-# Errors: 0, Warnings: 4
-# vsim -gui work.tb 
-# Start time: 19:03:58 on Nov 26,2023
-# Loading work.tb
-# Loading work.ALU_min
-# Loading work.ALU_synth
-# Loading work.NOT
-# Loading work.NOR
-# Loading work.NAND
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
-run -all
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.tb
-# End time: 19:05:39 on Nov 26,2023, Elapsed time: 0:01:41
-# Errors: 0, Warnings: 2
-# vsim -gui work.tb 
-# Start time: 19:05:39 on Nov 26,2023
-# Loading work.tb
-# Loading work.ALU_min
-# Loading work.ALU_synth
-# Loading work.NOT
-# Loading work.NOR
-# Loading work.NAND
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
-run -all
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.tb
-# End time: 19:08:24 on Nov 26,2023, Elapsed time: 0:02:45
-# Errors: 0, Warnings: 2
-# vsim -gui work.tb 
-# Start time: 19:08:24 on Nov 26,2023
-# Loading work.tb
-# Loading work.ALU_min
-# Loading work.ALU_synth
-# Loading work.NOR
-# Loading work.NOT
-# Loading work.NAND
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
-run -all
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.tb
-# End time: 19:11:55 on Nov 26,2023, Elapsed time: 0:03:31
-# Errors: 0, Warnings: 2
-# vsim -gui work.tb 
-# Start time: 19:11:55 on Nov 26,2023
-# Loading work.tb
-# Loading work.ALU_min
-# Loading work.ALU_synth
-# Loading work.NOR
-# Loading work.NOT
-# Loading work.NAND
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
-run -all
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.tb
-# End time: 19:13:26 on Nov 26,2023, Elapsed time: 0:01:31
-# Errors: 0, Warnings: 2
-# vsim -gui work.tb 
-# Start time: 19:13:26 on Nov 26,2023
-# Loading work.tb
-# Loading work.ALU_min
-# Loading work.ALU_synth
-# Loading work.NOR
-# Loading work.NOT
-# Loading work.NAND
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
-run -all
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.tb
-# End time: 19:14:17 on Nov 26,2023, Elapsed time: 0:00:51
-# Errors: 0, Warnings: 2
-# vsim -gui work.tb 
-# Start time: 19:14:17 on Nov 26,2023
-# Loading work.tb
-# Loading work.ALU_min
-# Loading work.ALU_synth
-# Loading work.NOR
-# Loading work.NOT
-# Loading work.NAND
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
-run -all
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# Compile of synth_min.v was successful.
-# 6 compiles, 0 failed with no errors.
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# Compile of synth_min.v was successful.
-# 6 compiles, 0 failed with no errors.
-vsim -gui work.tb
-# End time: 19:36:10 on Nov 26,2023, Elapsed time: 0:21:53
-# Errors: 0, Warnings: 4
-# vsim -gui work.tb 
-# Start time: 19:36:10 on Nov 26,2023
-# Loading work.tb
-# Loading work.ALU_min_synth
-# Loading work.NAND
-# Loading work.NOR
-# Loading work.NOT
-# Loading work.ALU_synth
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/ww_x
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
-add wave -position end  sim:/tb/zer_x
-add wave -position end  sim:/tb/neg_x
-run -all
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# Compile of synth_min.v was successful.
-# 6 compiles, 0 failed with no errors.
-vsim -gui work.tb
-# End time: 19:41:17 on Nov 26,2023, Elapsed time: 0:05:07
-# Errors: 0, Warnings: 2
-# vsim -gui work.tb 
-# Start time: 19:41:18 on Nov 26,2023
-# Loading work.tb
-# Loading work.ALU_min
-# Loading work.ALU_min_synth
-# Loading work.NAND
-# Loading work.NOR
-# Loading work.NOT
-# Loading work.ALU_synth
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/ww_x
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
-add wave -position end  sim:/tb/zer_x
-add wave -position end  sim:/tb/neg_x
-run -all
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# Compile of synth_min.v was successful.
-# 6 compiles, 0 failed with no errors.
-# Compile of ALU.v was successful.
-# Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# Compile of synth_min.v was successful.
-# 6 compiles, 0 failed with no errors.
-vsim -gui work.tb
-# End time: 19:43:16 on Nov 26,2023, Elapsed time: 0:01:58
-# Errors: 0, Warnings: 3
-# vsim -gui work.tb 
-# Start time: 19:43:16 on Nov 26,2023
-# Loading work.tb
-# Loading work.ALU_min
-set sim_time [time {run -all}]
-# 117238 microseconds per iteration
-set sim_time [time {run -all}]
-# 87445 microseconds per iteration
-set sim_time [time {run -all}]
-# 86585 microseconds per iteration
-set sim_time [time {run -all}]
-# 87853 microseconds per iteration
-set sim_time [time {run -all}]
-# 87084 microseconds per iteration
-set sim_time [time {run -all}]
-# 89977 microseconds per iteration
-set sim_time [time {run -all}]
-# 87188 microseconds per iteration
-set sim_time [time {run -all}]
-# 88403 microseconds per iteration
-set sim_time [time {run -all}]
-# 87501 microseconds per iteration
 quit -sim
-# End time: 19:45:00 on Nov 26,2023, Elapsed time: 0:01:44
-# Errors: 0, Warnings: 1
-set sim_time [time {run -all}]
-# No Design Loaded!
-# Compile of ALU.v was successful.
+# End time: 04:39:26 on Nov 28,2023, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 11
+# Compile of c.v was successful.
+# Compile of d.v failed with 1 errors.
 # Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# Compile of synth_min.v was successful.
-# 6 compiles, 0 failed with no errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of c.v was successful.
+# Compile of d.v was successful.
+# Compile of tb.v was successful.
+# 3 compiles, 0 failed with no errors.
 vsim -gui work.tb
 # vsim -gui work.tb 
-# Start time: 19:45:13 on Nov 26,2023
+# Start time: 04:40:32 on Nov 28,2023
 # Loading work.tb
-# Loading work.ALU_min
-# Compile of ALU.v was successful.
+# Loading work.comprator_8
+# ** Error: (vsim-3033) Instantiation of 'comprator_1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cmp File: E:/alireza/Code/System-Digital/hw6/q8/d.v Line: 7
+#         Searched libraries:
+#             E:/alireza/Modelsim projects/work/work
+# Error loading design
+# End time: 04:40:32 on Nov 28,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+# Compile of c.v was successful.
+# Compile of d.v was successful.
 # Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# Compile of synth_min.v was successful.
-# 6 compiles, 0 failed with no errors.
+# 3 compiles, 0 failed with no errors.
 vsim -gui work.tb
-# End time: 19:46:04 on Nov 26,2023, Elapsed time: 0:00:51
-# Errors: 0, Warnings: 3
 # vsim -gui work.tb 
-# Start time: 19:46:04 on Nov 26,2023
+# Start time: 04:41:49 on Nov 28,2023
 # Loading work.tb
-# Loading work.ALU_min
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/ww_x
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
-add wave -position end  sim:/tb/zer_x
-add wave -position end  sim:/tb/neg_x
-set sim_time [time {run -all}]
-# 82064 microseconds per iteration
-set sim_time [time {run -all}]
-# 76751 microseconds per iteration
-set sim_time [time {run -all}]
-# 76535 microseconds per iteration
-set sim_time [time {run -all}]
-# 76302 microseconds per iteration
-set sim_time [time {run -all}]set sim_time [time {run -all}]set sim_time [time {run -all}]
-# wrong # args: should be "set varName ?newValue?"
-set sim_time [time {run -all}]
-# 76606 microseconds per iteration
-set sim_time [time {run -all}]
-# 76825 microseconds per iteration
-set sim_time [time {run -all}]
-# 78755 microseconds per iteration
-set sim_time [time {run -all}]
-# 76028 microseconds per iteration
-set sim_time [time {run -all}]
-# 78302 microseconds per iteration
-set sim_time [time {run -all}]
-# 75995 microseconds per iteration
-set sim_time [time {run -all}]
-# 78465 microseconds per iteration
-set sim_time [time {run -all}]
-# 77353 microseconds per iteration
-set sim_time [time {run -all}]
-# 77362 microseconds per iteration
-set sim_time [time {run -all}]
-# 77875 microseconds per iteration
-set sim_time [time {run -all}]
-# 76299 microseconds per iteration
-# Compile of ALU.v was successful.
+# Loading work.comprator_8
+# ** Error: (vsim-3033) Instantiation of 'comprator_1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cmp File: E:/alireza/Code/System-Digital/hw6/q8/d.v Line: 7
+#         Searched libraries:
+#             E:/alireza/Modelsim projects/work/work
+# Error loading design
+# End time: 04:41:49 on Nov 28,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of c.v was successful.
+# Compile of d.v failed with 1 errors.
 # Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# Compile of synth_min.v was successful.
-# 6 compiles, 0 failed with no errors.
-vsim -gui work.tb
-# End time: 19:48:05 on Nov 26,2023, Elapsed time: 0:02:01
-# Errors: 0, Warnings: 2
-# vsim -gui work.tb 
-# Start time: 19:48:05 on Nov 26,2023
-# Loading work.tb
-# Loading work.ALU_min_synth
-# Loading work.NAND
-# Loading work.NOR
-# Loading work.NOT
-# Compile of ALU.v was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of c.v was successful.
+# Compile of d.v was successful.
 # Compile of tb.v was successful.
-# Compile of mycells.v was successful.
-# Compile of synth.v was successful.
-# Compile of ALU_min.v was successful.
-# Compile of synth_min.v was successful.
-# 6 compiles, 0 failed with no errors.
+# 3 compiles, 0 failed with no errors.
 vsim -gui work.tb
-# End time: 19:48:25 on Nov 26,2023, Elapsed time: 0:00:20
-# Errors: 0, Warnings: 2
 # vsim -gui work.tb 
-# Start time: 19:48:25 on Nov 26,2023
+# Start time: 04:43:13 on Nov 28,2023
 # Loading work.tb
-# Loading work.ALU_min_synth
-# Loading work.NAND
-# Loading work.NOR
-# Loading work.NOT
+# Loading work.comprator_8
+# Loading work.comprator_2_bit
+add wave -position end  sim:/tb/a
+add wave -position end  sim:/tb/b
+add wave -position end  sim:/tb/lt
+add wave -position end  sim:/tb/eq
+add wave -position end  sim:/tb/gt
 run -all
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/ww_x
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
-add wave -position end  sim:/tb/zer_x
-add wave -position end  sim:/tb/neg_x
-run -all
+# Compile of c.v was successful.
+# Compile of d.v was successful.
+# Compile of tb.v was successful.
+# 3 compiles, 0 failed with no errors.
 vsim -gui work.tb
-# End time: 19:48:46 on Nov 26,2023, Elapsed time: 0:00:21
-# Errors: 0, Warnings: 1
+# End time: 04:44:58 on Nov 28,2023, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 4
 # vsim -gui work.tb 
-# Start time: 19:48:46 on Nov 26,2023
+# Start time: 04:44:58 on Nov 28,2023
 # Loading work.tb
-# Loading work.ALU_min_synth
-# Loading work.NAND
-# Loading work.NOR
-# Loading work.NOT
-add wave -position end  sim:/tb/aa
-add wave -position end  sim:/tb/bb
-add wave -position end  sim:/tb/opc
-add wave -position end  sim:/tb/cc
-add wave -position end  sim:/tb/ww
-add wave -position end  sim:/tb/ww_y
-add wave -position end  sim:/tb/ww_x
-add wave -position end  sim:/tb/zer
-add wave -position end  sim:/tb/neg
-add wave -position end  sim:/tb/zer_y
-add wave -position end  sim:/tb/neg_y
-add wave -position end  sim:/tb/zer_x
-add wave -position end  sim:/tb/neg_x
+# Loading work.comprator_8
+# Loading work.comprator_2_bit
+add wave -position end  sim:/tb/a
+add wave -position end  sim:/tb/b
+add wave -position end  sim:/tb/lt
+add wave -position end  sim:/tb/eq
+add wave -position end  sim:/tb/gt
 run -all
-set sim_time [time {run -all}]
-# 80820 microseconds per iteration
-set sim_time [time {run -all}]
-# 80896 microseconds per iteration
-set sim_time [time {run -all}]
-# 80758 microseconds per iteration
-set sim_time [time {run -all}]
-# 79658 microseconds per iteration
-set sim_time [time {run -all}]
-# 82276 microseconds per iteration
-set sim_time [time {run -all}]
-# 81237 microseconds per iteration
-set sim_time [time {run -all}]
-# 81498 microseconds per iteration
-set sim_time [time {run -all}]
-# 79907 microseconds per iteration
-set sim_time [time {run -all}]
-# 83969 microseconds per iteration
-set sim_time [time {run -all}]
-# 78890 microseconds per iteration

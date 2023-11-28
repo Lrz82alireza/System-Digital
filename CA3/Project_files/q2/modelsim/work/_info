@@ -9,32 +9,104 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/20.1
-vALU
-Z0 !s110 1701015498
+v_16_to_1_MUX
+Z0 !s110 1701113010
 !i10b 1
-!s100 9=lk4>GE4W]=cI>b2`;WL0
+!s100 hDGSQ[E<@^203d2KNk@bc2
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IPd91=n1h3jJV4g?a``LXU2
+IE<H6mC:XFb:_PV<hC?T<[3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 dE:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim
+w1701108240
+8E:/alireza/Code/System-Digital/hw6/q6/b.v
+FE:/alireza/Code/System-Digital/hw6/q6/b.v
+!i122 497
+L0 1 11
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1701113010.000000
+!s107 E:/alireza/Code/System-Digital/hw6/q6/b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/hw6/q6/b.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@_16_to_1_@m@u@x
+v_4_to_1_MUX_h
+R0
+!i10b 1
+!s100 `oW@eDVOHI4VKGDg_ZQ1U0
+R1
+I9I7aoaYC2Rzl_AD`@HQi53
+R2
+R3
+Z8 w1701102158
+Z9 8E:/alireza/Code/System-Digital/hw6/q6/a.v
+Z10 FE:/alireza/Code/System-Digital/hw6/q6/a.v
+!i122 496
+L0 10 8
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 E:/alireza/Code/System-Digital/hw6/q6/a.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/hw6/q6/a.v|
+!i113 1
+R6
+R7
+n@_4_to_1_@m@u@x_h
+v_4_to_1_MUX_l
+R0
+!i10b 1
+!s100 fQNi@RedmM`idj4OhWPb<0
+R1
+ILXRl>[5n54]ZgJQcQZLDX2
+R2
+R3
+R8
+R9
+R10
+!i122 496
+L0 1 8
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@_4_to_1_@m@u@x_l
+vALU
+!s110 1701015498
+!i10b 1
+!s100 9=lk4>GE4W]=cI>b2`;WL0
+R1
+IPd91=n1h3jJV4g?a``LXU2
+R2
+R3
 w1701012890
 8E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v
 FE:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v
 !i122 128
 L0 2 23
-Z4 OV;L;2020.1;71
+R4
 r1
 !s85 0
 31
-Z5 !s108 1701015498.000000
+Z13 !s108 1701015498.000000
 !s107 E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
+R6
+R7
 n@a@l@u
 vALU_min
-Z8 !s110 1701015499
+Z14 !s110 1701015499
 !i10b 1
 !s100 fo<O^<nEc=NY8X]A7X:dY2
 R1
@@ -50,7 +122,7 @@ R4
 r1
 !s85 0
 31
-Z9 !s108 1701015499.000000
+Z15 !s108 1701015499.000000
 !s107 E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU_min.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU_min.v|
 !i113 1
@@ -58,7 +130,7 @@ R6
 R7
 n@a@l@u_min
 vALU_min_synth
-R8
+R14
 !i10b 1
 !s100 iAbPGobX3G1l:KR3a3^[[3
 R1
@@ -74,7 +146,7 @@ R4
 r1
 !s85 0
 31
-R9
+R15
 !s107 E:/alireza/Code/System-Digital/CA3/Project_files/q2/synth_min.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/CA3/Project_files/q2/synth_min.v|
 !i113 1
@@ -82,7 +154,7 @@ R6
 R7
 n@a@l@u_min_synth
 vALU_synth
-R8
+R14
 !i10b 1
 !s100 KYz@>]ZUeJi<PJdJ`dNbQ3
 R1
@@ -98,177 +170,338 @@ R4
 r1
 !s85 0
 31
-R9
+R15
 !s107 E:/alireza/Code/System-Digital/CA3/Project_files/q2/synth.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/CA3/Project_files/q2/synth.v|
 !i113 1
 R6
 R7
 n@a@l@u_synth
+vcomprator
+Z16 !s110 1701124362
+!i10b 1
+!s100 ^k77P`zQ>R?D`7YGFm[@H1
+R1
+IoVPS7CPmE?jDO_IzBUK_D1
+R2
+R3
+Z17 w1701124330
+Z18 8E:/alireza/Code/System-Digital/hw6/test/a.v
+Z19 FE:/alireza/Code/System-Digital/hw6/test/a.v
+!i122 565
+L0 1 5
+R4
+r1
+!s85 0
+31
+Z20 !s108 1701124362.000000
+Z21 !s107 E:/alireza/Code/System-Digital/hw6/test/a.v|
+Z22 !s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/hw6/test/a.v|
+!i113 1
+R6
+R7
+vcomprator_1
+!s110 1701124141
+!i10b 1
+!s100 2bYdn_cT58lK=infzARf02
+R1
+IeT^mh8SCK]0_9ATM6BB_;3
+R2
+R3
+w1701121402
+8E:/alireza/Code/System-Digital/hw6/q7/c.v
+FE:/alireza/Code/System-Digital/hw6/q7/c.v
+!i122 560
+Z23 L0 1 7
+R4
+r1
+!s85 0
+31
+!s108 1701124141.000000
+!s107 E:/alireza/Code/System-Digital/hw6/q7/c.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/hw6/q7/c.v|
+!i113 1
+R6
+R7
+vcomprator_2_bit
+Z24 !s110 1701133454
+!i10b 1
+!s100 `PHo1<QKj9B2l8:7JJmOK0
+R1
+Ia7S1E6``:6G;n9^lm05ZB1
+R2
+R3
+w1701131940
+8E:/alireza/Code/System-Digital/hw6/q8/c.v
+FE:/alireza/Code/System-Digital/hw6/q8/c.v
+!i122 601
+R23
+R4
+r1
+!s85 0
+31
+Z25 !s108 1701133454.000000
+!s107 E:/alireza/Code/System-Digital/hw6/q8/c.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/hw6/q8/c.v|
+!i113 1
+R6
+R7
+vcomprator_8
+R24
+!i10b 1
+!s100 g9kc<n9z<zRLXUhmP1ZJ42
+R1
+I@SeezR1Vi0?X@@aA5=KS>0
+R2
+R3
+w1701132183
+8E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/d.v
+FE:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/d.v
+!i122 602
+L0 1 16
+R4
+r1
+!s85 0
+31
+R25
+!s107 E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/d.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/d.v|
+!i113 1
+R6
+R7
+vcomprator_8_bit
+R16
+!i10b 1
+!s100 j>UF?W=>lX@7X3^RFEbXI0
+R1
+I6O^CHbB^7S7]zRf4ZRgNj0
+R2
+R3
+R17
+R18
+R19
+!i122 565
+L0 7 12
+R4
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R6
+R7
 vDFF
-R8
+R14
 !i10b 1
 !s100 9Kc]>n0;m0OTK<i3l8?_:0
 R1
 IYNGW=84B2:[`3Q2>OA3NJ2
 R2
 R3
-Z10 w1638820552
-Z11 8E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v
-Z12 FE:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v
+Z26 w1638820552
+Z27 8E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v
+Z28 FE:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v
 !i122 130
 L0 20 6
 R4
 r1
 !s85 0
 31
-R5
-Z13 !s107 E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v|
-Z14 !s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v|
+R13
+Z29 !s107 E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v|
+Z30 !s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v|
 !i113 1
 R6
 R7
 n@d@f@f
 vDFF_PP0
-R8
+R14
 !i10b 1
 !s100 Ig4QjH@^Nee5aAjSWm?Q_2
 R1
 IdfgL;XMkD_L83EYi]@m`[3
 R2
 R3
-R10
-R11
-R12
+R26
+R27
+R28
 !i122 130
 L0 27 10
 R4
 r1
 !s85 0
 31
-R5
 R13
-R14
+R29
+R30
 !i113 1
 R6
 R7
 n@d@f@f_@p@p0
 vDFF_PP1
-R8
+R14
 !i10b 1
 !s100 UiV@]1Uc:BLDF`BdJoboO2
 R1
 IkbkJo2o:hS?c;ahj@jdoU1
 R2
 R3
-R10
-R11
-R12
+R26
+R27
+R28
 !i122 130
 L0 38 10
 R4
 r1
 !s85 0
 31
-R5
 R13
-R14
+R29
+R30
 !i113 1
 R6
 R7
 n@d@f@f_@p@p1
+vfunc_c
+R0
+!i10b 1
+!s100 <6PNhQLWD5Ljb`4^of`F91
+R1
+IdF_lSI>7_c<EQlT7An1>K1
+R2
+R3
+w1701112932
+8E:/alireza/Code/System-Digital/hw6/q6/c.v
+FE:/alireza/Code/System-Digital/hw6/q6/c.v
+!i122 498
+L0 1 9
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/alireza/Code/System-Digital/hw6/q6/c.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/hw6/q6/c.v|
+!i113 1
+R6
+R7
 vNAND
-R8
+R14
 !i10b 1
 !s100 iQeT?e=ifMkPc<9Y^9B8e2
 R1
 IgSY2M0=3R[hQgcKJdI5RY2
 R2
 R3
-R10
-R11
-R12
+R26
+R27
+R28
 !i122 130
 L0 8 5
 R4
 r1
 !s85 0
 31
-R5
 R13
-R14
+R29
+R30
 !i113 1
 R6
 R7
 n@n@a@n@d
 vNOR
-R8
+R14
 !i10b 1
 !s100 jD8b28P?Y<Be0n5^SEN6T2
 R1
 IIAZ7i9zfmjLSSz=PC?HBB3
 R2
 R3
-R10
-R11
-R12
+R26
+R27
+R28
 !i122 130
 L0 14 5
 R4
 r1
 !s85 0
 31
-R5
 R13
-R14
+R29
+R30
 !i113 1
 R6
 R7
 n@n@o@r
 vNOT
-R8
+R14
 !i10b 1
 !s100 3Tm5Z8>`m[E>PKjj4J_TZ3
 R1
 IoJZ]<;jNhz6J:A?UHQRa]0
 R2
 R3
-R10
-R11
-R12
+R26
+R27
+R28
 !i122 130
 L0 2 5
 R4
 r1
 !s85 0
 31
-R5
 R13
-R14
+R29
+R30
 !i113 1
 R6
 R7
 n@n@o@t
 vtb
-R0
+R24
 !i10b 1
-!s100 B@<HVWNKBHdb:ffe0NGGL3
+!s100 D1bOUo7XI<U:FTHfjj]T63
 R1
-I7m1CQ_P<e6gSA3^XkbGoV3
+Ie8eEG1dhEd=[XdaHl7gl81
 R2
 R3
-w1701015491
-8E:/alireza/Code/System-Digital/CA3/Project_files/q2/tb.v
-FE:/alireza/Code/System-Digital/CA3/Project_files/q2/tb.v
-!i122 129
-L0 2 22
+w1701132876
+8E:/alireza/Code/System-Digital/hw6/q8/tb.v
+FE:/alireza/Code/System-Digital/hw6/q8/tb.v
+!i122 603
+L0 2 55
+R4
+r1
+!s85 0
+31
+R25
+!s107 E:/alireza/Code/System-Digital/hw6/q8/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/hw6/q8/tb.v|
+!i113 1
+R6
+R7
+vtb_c
+R0
+!i10b 1
+!s100 >8TSk3R]a8G1g;k3C_lB=1
+R1
+IJ2;f]TX4mDDYje:WROgWf3
+R2
+R3
+w1701113007
+8E:/alireza/Code/System-Digital/hw6/q6/tb_c.v
+FE:/alireza/Code/System-Digital/hw6/q6/tb_c.v
+!i122 500
+L0 2 41
 R4
 r1
 !s85 0
 31
 R5
-!s107 E:/alireza/Code/System-Digital/CA3/Project_files/q2/tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/CA3/Project_files/q2/tb.v|
+!s107 E:/alireza/Code/System-Digital/hw6/q6/tb_c.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/alireza/Code/System-Digital/hw6/q6/tb_c.v|
 !i113 1
 R6
 R7

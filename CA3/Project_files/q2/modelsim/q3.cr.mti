@@ -1,46 +1,22 @@
-E:/alireza/Code/System-Digital/CA3/Project_files/q2/synth.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/CA3/Project_files/q2/synth.v
+E:/alireza/Code/System-Digital/hw6/q8/tb.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/hw6/q8/tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ALU_synth
+-- Compiling module tb
 
 Top level modules:
-	ALU_synth
+	tb
 
-} {} {}} E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU.v
+} {} {}} E:/alireza/Code/System-Digital/hw6/q8/c.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/hw6/q8/c.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ALU
+-- Compiling module comprator_2_bit
 
 Top level modules:
-	ALU
+	comprator_2_bit
 
-} {} {}} E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/mycells.v
+} {} {}} E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/d.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/CA3/Project_files/q2/modelsim/d.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module NOT
--- Compiling module NAND
--- Compiling module NOR
--- Compiling module DFF
--- Compiling module DFF_PP0
--- Compiling module DFF_PP1
+-- Compiling module comprator_8
 
 Top level modules:
-	NOT
-	NAND
-	NOR
-	DFF
-	DFF_PP0
-	DFF_PP1
-
-} {} {}} E:/alireza/Code/System-Digital/CA3/Project_files/q2/synth_min.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/CA3/Project_files/q2/synth_min.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ALU_min_synth
-
-Top level modules:
-	ALU_min_synth
-
-} {} {}} E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU_min.v {1 {vlog -work work -stats=none E:/alireza/Code/System-Digital/CA3/Project_files/q2/ALU_min.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ALU_min
-
-Top level modules:
-	ALU_min
+	comprator_8
 
 } {} {}}
