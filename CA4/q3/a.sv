@@ -15,7 +15,7 @@ module D_flip_flop_PR (input D, clk, PRE, CLR,  output Q, QB);
     wire wi[3:0];
 
     SR_3_input L1 (wi[3], ~ PRE, clk, ~ CLR, wi[0], wi[1]);
-    SR_3_input L2 (wi[1], wi[clk], D, ~CLR, wi[2], wi[3]);
-    SR_3_input L3 (~ PRE, wi[1], ~ CLR, wi[2], Q, QB);
+    SR_3_input L2 (wi[1], clk, D, ~CLR, wi[2], wi[3]);
+    SR_3_input L3 (wi[1], ~ PRE, wi[2], ~ CLR, Q, QB);
 
 endmodule
