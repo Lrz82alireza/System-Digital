@@ -14,7 +14,7 @@ module D_flip_flop (input D, clk, output Q, QB);
 
 wire w1, w2, w3, w4;
 
-SR_2_input L1 (w4, clk, w1, w2);
+SR_2_input L1 (w4, clk, w1, w2); 
 SR_3_input L2 (w2, clk, D, 1'b1, w3, w4);
 SR_2_input L3 (w2, w3, Q, QB);
     
