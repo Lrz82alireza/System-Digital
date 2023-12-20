@@ -8,14 +8,14 @@ module tb_b_q2 ();
 
     initial {D, clk} = 2'b00;
 
-    initial repeat (30) #50 clk = ~clk;
+    initial repeat (30) #100 clk = ~clk;
     // initial repeat (20) #98 D = ~D;
 
     initial begin
         #100
-        repeat (2) #20 D = ~D;
-        #86 D = ~D;
-        #12 D = ~D;
+        repeat (20) #60 D = ~D;
+        #80 D = ~D;
+        #40 D = ~D;
     end
 
 
