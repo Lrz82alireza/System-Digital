@@ -1,6 +1,6 @@
 module seq_det (input clk, rst, serIn, output w);
-    logic [1:0] ps,ns;
-    parameter [2:0] A = 3'b0, B = 3'b1, C = 3'b2, D = 3'b3, E = 3'b4, F = 3'b5, G = 3'b6, H = 3'b7;
+    logic [2:0] ps,ns;
+    parameter [2:0] A = 3'd0, B = 3'd1, C = 3'd2, D = 3'd3, E = 3'd4, F = 3'd5, G = 3'd6, H = 3'd7;
 
     always @(ps, serIn) begin
         ns = A;
@@ -13,7 +13,7 @@ module seq_det (input clk, rst, serIn, output w);
             F: ns = serIn ? G : B; 
             G: ns = serIn ? A : H;
             H: ns = serIn ? C : B;
-            default: 
+            default: ns = A;
         endcase
 
     end
