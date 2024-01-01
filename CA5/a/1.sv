@@ -1,4 +1,4 @@
-module seq_det (input clk, rst, serIn, output w);
+module seq_det_pre (input clk, rst, serIn, output w);
     logic [2:0] ps,ns;
     parameter [2:0] A = 3'd0, B = 3'd1, C = 3'd2, D = 3'd3, E = 3'd4, F = 3'd5, G = 3'd6, H = 3'd7;
 

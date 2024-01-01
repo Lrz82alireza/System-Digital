@@ -1,0 +1,23 @@
+/home/alireze/Documents/GitHub/System-Digital/CA5/a/1.sv {1 {vlog -work work -sv -stats=none /home/alireze/Documents/GitHub/System-Digital/CA5/a/1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module seq_det_pre
+
+Top level modules:
+	seq_det_pre
+
+} {} {}} /home/alireze/Documents/GitHub/System-Digital/CA5/a/1_tb.sv {1 {vlog -work work -sv -stats=none /home/alireze/Documents/GitHub/System-Digital/CA5/a/1_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module seq_det_tb
+
+Top level modules:
+	seq_det_tb
+
+} {} {}} /home/alireze/Documents/GitHub/System-Digital/CA5/a/quartez_files/simulation/questa/seq_det.svo {1 {vlog -work work -stats=none /home/alireze/Documents/GitHub/System-Digital/CA5/a/quartez_files/simulation/questa/seq_det.svo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module seq_det
+-- Compiling module hard_block
+
+Top level modules:
+	seq_det
+
+} {} {}}
