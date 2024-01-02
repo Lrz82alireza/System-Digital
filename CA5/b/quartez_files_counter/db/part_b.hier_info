@@ -1,0 +1,45 @@
+|counter_8_bit
+clk => count_num[0].CLK
+clk => count_num[1].CLK
+clk => count_num[2].CLK
+clk => count_num[3].CLK
+clk => count_num[4].CLK
+clk => count_num[5].CLK
+clk => count_num[6].CLK
+clk => count_num[7].CLK
+rst => count_num[0].ACLR
+rst => count_num[1].ACLR
+rst => count_num[2].ACLR
+rst => count_num[3].ACLR
+rst => count_num[4].ACLR
+rst => count_num[5].ACLR
+rst => count_num[6].ACLR
+rst => count_num[7].ACLR
+load => count_num.OUTPUTSELECT
+load => count_num.OUTPUTSELECT
+load => count_num.OUTPUTSELECT
+load => count_num.OUTPUTSELECT
+load => count_num.OUTPUTSELECT
+load => count_num.OUTPUTSELECT
+load => count_num.OUTPUTSELECT
+load => count_num.OUTPUTSELECT
+en => count_num.OUTPUTSELECT
+en => count_num.OUTPUTSELECT
+en => count_num.OUTPUTSELECT
+en => count_num.OUTPUTSELECT
+en => count_num.OUTPUTSELECT
+en => count_num.OUTPUTSELECT
+en => count_num.OUTPUTSELECT
+en => count_num.OUTPUTSELECT
+en => co.IN1
+init[0] => count_num.DATAB
+init[1] => count_num.DATAB
+init[2] => count_num.DATAB
+init[3] => count_num.DATAB
+init[4] => count_num.DATAB
+init[5] => count_num.DATAB
+init[6] => count_num.DATAB
+init[7] => count_num.DATAB
+co << co.DB_MAX_OUTPUT_PORT_TYPE
+
+

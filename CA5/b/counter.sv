@@ -14,10 +14,3 @@ module counter_8_bit (input clk, rst, load, en, input [7:0] init, output co);
     assign co = (en && (|count_num == 0)) ? 1'b1 : 1'b0;
 
 endmodule
-
-module shift_reg_8_bit (input clk, en, in, output logic [7:0] out);
-    always @(posedge clk) begin
-        if (en)
-            out = {in, out[7:1]};
-    end
-endmodule

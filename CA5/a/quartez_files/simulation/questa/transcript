@@ -1,0 +1,561 @@
+# Loading project CA5
+# reading /home/alireze/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project test counter and reg
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.counter_tb
+# vsim work.counter_tb 
+# Start time: 14:42:39 on Jan 02,2024
+# Loading sv_std.std
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'init'. The port definition is at: /home/alireze/Documents/GitHub/System-Digital/CA5/b/counter_and_shift_reg.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /counter_tb/ctr File: /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv Line: 8
+add wave -position end  sim:/counter_tb/clk
+add wave -position end  sim:/counter_tb/rst
+add wave -position end  sim:/counter_tb/serIn
+add wave -position end  sim:/counter_tb/load
+add wave -position end  sim:/counter_tb/en
+add wave -position end  sim:/counter_tb/init
+add wave -position end  sim:/counter_tb/w_ct
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Warning in wave window restart: (vish-4014) No objects found matching '/counter_tb/serIn'. 
+run -all
+add wave -position end  sim:/counter_tb/ctr/init
+restart -f
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Warning in wave window restart: (vish-4014) No objects found matching '/counter_tb/init'. 
+run -all
+add wave -position end  sim:/counter_tb/ctr/init
+vsim work.counter_tb
+# End time: 14:50:58 on Jan 02,2024, Elapsed time: 0:08:19
+# Errors: 0, Warnings: 1
+# vsim work.counter_tb 
+# Start time: 14:50:58 on Jan 02,2024
+# Loading sv_std.std
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+add wave -position end  sim:/counter_tb/clk
+add wave -position end  sim:/counter_tb/rst
+add wave -position end  sim:/counter_tb/load
+add wave -position end  sim:/counter_tb/en
+add wave -position end  sim:/counter_tb/init_tb
+add wave -position end  sim:/counter_tb/w_ct
+add wave -position end  sim:/counter_tb/ctr/count_num
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.shift_reg_8_bit
+add wave -position end  sim:/counter_tb/w_reg
+vsim work.counter_tb
+# End time: 15:22:57 on Jan 02,2024, Elapsed time: 0:31:59
+# Errors: 0, Warnings: 1
+# vsim work.counter_tb 
+# Start time: 15:22:57 on Jan 02,2024
+# Loading sv_std.std
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.shift_reg_8_bit
+add wave -position end  sim:/counter_tb/clk
+add wave -position end  sim:/counter_tb/rst
+add wave -position end  sim:/counter_tb/load
+add wave -position end  sim:/counter_tb/en
+add wave -position end  sim:/counter_tb/serin
+add wave -position end  sim:/counter_tb/init_tb
+add wave -position end  sim:/counter_tb/w_ct
+add wave -position end  sim:/counter_tb/w_reg
+add wave -position end  sim:/counter_tb/ctr/count_num
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.shift_reg_8_bit
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.shift_reg_8_bit
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.shift_reg_8_bit
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.shift_reg_8_bit
+restart
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.shift_reg_8_bit
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.shift_reg_8_bit
+run -all
+restart
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.shift_reg_8_bit
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.shift_reg_8_bit
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.shift_reg_8_bit
+run -all
+quit -sim
+# End time: 16:19:18 on Jan 02,2024, Elapsed time: 0:56:21
+# Errors: 0, Warnings: 1
+# reading /home/alireze/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project part_B
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.counter_tb -L altera_ver -L cycloneiv_ver -sdftyp /counter_8_bit=/home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# vsim work.counter_tb -L altera_ver -L cycloneiv_ver -sdftyp "/counter_8_bit=/home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo" 
+# Start time: 16:28:20 on Jan 02,2024
+# Loading sv_std.std
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'counter_tb' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_tb/ctr File: /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b.svo
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.shift_reg_8_bit
+# Error loading design
+# End time: 16:28:20 on Jan 02,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 7
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# No Design Loaded!
+vsim -L altera_ver -L cycloneiv_ver -sdftyp /counter_8_bit=/home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo work.counter_tb
+# vsim -L altera_ver -L cycloneiv_ver -sdftyp "/counter_8_bit=/home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo" work.counter_tb 
+# Start time: 16:29:17 on Jan 02,2024
+# Loading sv_std.std
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.shift_reg_8_bit
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# Loading instances from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) part_b_v.sdo(0): Failed to find INSTANCE '/counter_8_bit'.
+# Loading instances from part_b_v.sdo
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Error (suppressible): (vsim-SDF-3250) /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo(0): Failed to find INSTANCE '/counter_8_bit'.
+# Loading timing data from part_b_v.sdo
+# Error loading design
+# End time: 16:29:17 on Jan 02,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -L altera_ver -L cycloneiv_ver -sdftyp /counter_8_bit=/home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo work.counter_tb
+# vsim -L altera_ver -L cycloneiv_ver -sdftyp "/counter_8_bit=/home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo" work.counter_tb 
+# Start time: 16:34:40 on Jan 02,2024
+# Loading sv_std.std
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.shift_reg_8_bit
+# Loading instances from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) part_b_v.sdo(0): Failed to find INSTANCE '/counter_8_bit'.
+# Loading instances from part_b_v.sdo
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Error (suppressible): (vsim-SDF-3250) /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo(0): Failed to find INSTANCE '/counter_8_bit'.
+# Loading timing data from part_b_v.sdo
+# Error loading design
+# End time: 16:34:41 on Jan 02,2024, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 2
+vsim -L altera_ver -L cycloneiv_ver -sdftyp /ctr=/home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo work.counter_tb
+# vsim -L altera_ver -L cycloneiv_ver -sdftyp "/ctr=/home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo" work.counter_tb 
+# Start time: 16:35:51 on Jan 02,2024
+# Loading sv_std.std
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.shift_reg_8_bit
+# Loading instances from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading instances from part_b_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading timing data from part_b_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_tb File: /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv
+add wave -position end  sim:/counter_tb/clk
+add wave -position end  sim:/counter_tb/rst
+add wave -position end  sim:/counter_tb/load
+add wave -position end  sim:/counter_tb/en
+add wave -position end  sim:/counter_tb/serin
+add wave -position end  sim:/counter_tb/init_tb
+add wave -position end  sim:/counter_tb/w_ct
+add wave -position end  sim:/counter_tb/w_reg
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.hard_block
+# Loading work.shift_reg_8_bit
+# Loading instances from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading instances from part_b_v.sdo
+# Loading timing data from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading timing data from part_b_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_tb File: /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv
+run -all
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.hard_block
+# Loading work.shift_reg_8_bit
+# Loading instances from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading instances from part_b_v.sdo
+# Loading timing data from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading timing data from part_b_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_tb File: /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv
+# Warning in wave window restart: (vish-4014) No objects found matching '/counter_tb/serin'. 
+run -all
+# ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv(57)
+#    Time: 3451 ns  Iteration: 0  Instance: /counter_tb
+# Break in Module counter_tb at /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv line 57
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.hard_block
+# Loading work.shift_reg_8_bit
+# Loading instances from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading instances from part_b_v.sdo
+# Loading timing data from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading timing data from part_b_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_tb File: /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv
+run -all
+# ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv(62)
+#    Time: 3451 ns  Iteration: 0  Instance: /counter_tb
+# Break in Module counter_tb at /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv line 62
+vsim -L altera_ver -L cycloneiv_ver -sdftyp /ctr=/home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo work.counter_tb
+# End time: 16:45:18 on Jan 02,2024, Elapsed time: 0:09:27
+# Errors: 0, Warnings: 1
+# vsim -L altera_ver -L cycloneiv_ver -sdftyp "/ctr=/home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo" work.counter_tb 
+# Start time: 16:45:18 on Jan 02,2024
+# Loading sv_std.std
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.shift_reg_8_bit
+# Loading instances from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading instances from part_b_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading timing data from part_b_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_tb File: /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv
+add wave -position end  sim:/counter_tb/clk
+add wave -position end  sim:/counter_tb/rst
+add wave -position end  sim:/counter_tb/load
+add wave -position end  sim:/counter_tb/en
+add wave -position end  sim:/counter_tb/si
+add wave -position end  sim:/counter_tb/init_tb
+add wave -position end  sim:/counter_tb/w_ct
+add wave -position end  sim:/counter_tb/w_reg
+run -all
+# ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv(62)
+#    Time: 3451 ns  Iteration: 0  Instance: /counter_tb
+# Break in Module counter_tb at /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv line 62
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.hard_block
+# Loading work.shift_reg_8_bit
+# Loading instances from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading instances from part_b_v.sdo
+# Loading timing data from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading timing data from part_b_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_tb File: /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv
+run -all
+# ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv(64)
+#    Time: 3451 ns  Iteration: 0  Instance: /counter_tb
+# Break in Module counter_tb at /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv line 64
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.hard_block
+# Loading work.shift_reg_8_bit
+# Loading instances from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading instances from part_b_v.sdo
+# Loading timing data from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading timing data from part_b_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_tb File: /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv
+run -all
+# ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv(64)
+#    Time: 3451 ns  Iteration: 0  Instance: /counter_tb
+# Break in Module counter_tb at /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv line 64
+quit -sim
+# End time: 17:05:50 on Jan 02,2024, Elapsed time: 0:20:32
+# Errors: 0, Warnings: 4
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo failed with 15 errors.
+# 3 compiles, 1 failed with 15 errors.
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -L altera_ver -L cycloneiv_ver -sdftyp /crt=/home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo work.counter_tb
+# vsim -L altera_ver -L cycloneiv_ver -sdftyp "/crt=/home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo" work.counter_tb 
+# Start time: 17:46:37 on Jan 02,2024
+# Loading sv_std.std
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.shift_reg_8_bit
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# Loading instances from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) part_b_v.sdo(0): Failed to find INSTANCE '/crt'.
+# Loading instances from part_b_v.sdo
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Error (suppressible): (vsim-SDF-3250) /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo(0): Failed to find INSTANCE '/crt'.
+# Loading timing data from part_b_v.sdo
+# Error loading design
+# End time: 17:46:37 on Jan 02,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 12
+vsim -L altera_ver -L cycloneiv_ver -sdftyp /ctr=/home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo work.counter_tb
+# vsim -L altera_ver -L cycloneiv_ver -sdftyp "/ctr=/home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo" work.counter_tb 
+# Start time: 17:47:45 on Jan 02,2024
+# Loading sv_std.std
+# Loading work.counter_tb
+# Loading work.counter_8_bit
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.shift_reg_8_bit
+# Loading instances from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading instances from part_b_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from /home/alireze/Documents/GitHub/System-Digital/CA5/b/quartez_files/simulation/questa/part_b_v.sdo
+# Loading timing data from part_b_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_tb File: /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv
+add wave -position end  sim:/counter_tb/clk
+add wave -position end  sim:/counter_tb/rst
+add wave -position end  sim:/counter_tb/load
+add wave -position end  sim:/counter_tb/en
+add wave -position end  sim:/counter_tb/si
+add wave -position end  sim:/counter_tb/init_tb
+add wave -position end  sim:/counter_tb/w_ct
+add wave -position end  sim:/counter_tb/w_reg
+run -all
+# ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv(64)
+#    Time: 3451 ns  Iteration: 0  Instance: /counter_tb
+# Break in Module counter_tb at /home/alireze/Documents/GitHub/System-Digital/CA5/b/tb_counter.sv line 64
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo failed with 14 errors.
+# 3 compiles, 1 failed with 14 errors.
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo failed with 14 errors.
+# 3 compiles, 1 failed with 14 errors.
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo failed with 14 errors.
+# 3 compiles, 1 failed with 14 errors.
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo failed with 14 errors.
+# 3 compiles, 1 failed with 14 errors.
+# Compile of counter_and_shift_reg.sv was successful.
+# Compile of tb_counter.sv was successful.
+# Compile of part_b.svo failed with 14 errors.
+# 3 compiles, 1 failed with 14 errors.
