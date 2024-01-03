@@ -1,0 +1,33 @@
+|main_state
+clk => clk.IN1
+rst => rst.IN1
+co => Selector8.IN1
+co => Selector3.IN2
+co => Selector4.IN2
+co => Selector1.IN2
+co => Selector7.IN2
+co => Selector0.IN1
+co => Selector3.IN1
+co => Selector2.IN1
+serIn => serIn.IN1
+load << Selector4.DB_MAX_OUTPUT_PORT_TYPE
+S << S$latch.DB_MAX_OUTPUT_PORT_TYPE
+shift_en << shift_en$latch.DB_MAX_OUTPUT_PORT_TYPE
+counter_en << <VCC>
+serOutValid << serOutValid$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main_state|seq_det_pre:start_seq
+clk => ps~1.DATAIN
+rst => ps~3.DATAIN
+serIn => ns.D.DATAB
+serIn => ns.E.DATAB
+serIn => ns.F.DATAB
+serIn => ns.G.DATAB
+serIn => Selector0.IN2
+serIn => Selector2.IN1
+serIn => ns.H.DATAB
+serIn => Selector1.IN1
+w <= w.DB_MAX_OUTPUT_PORT_TYPE
+
+

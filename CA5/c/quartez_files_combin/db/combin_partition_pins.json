@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "co",
+					"strict" : false
+				},
+				{
+					"name" : "serOut",
+					"strict" : false
+				},
+				{
+					"name" : "counter_en",
+					"strict" : false
+				},
+				{
+					"name" : "serIn",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "S",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "load",
+					"strict" : false
+				},
+				{
+					"name" : "shift_en",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
