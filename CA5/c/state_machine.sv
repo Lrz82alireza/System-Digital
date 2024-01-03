@@ -1,7 +1,7 @@
-module main_state (input clk, rst, co, serIn, output load, S, shift_en, counter_en, serOutValid);
+module main_state (input clk, rst, co, serIn, output logic load, S, shift_en, counter_en, serOutValid);
     logic [2:0] ps, ns;
-    logic start;
-    parameter [2:0] START_SEQUENCE = 3'd0, COUNT_8 = 3'd1, COUNT_NT = 3'd2, D = 3'd3, E = 3'd4, F = 3'd5, G = 3'd6, H = 3'd7;
+    wire start;
+    parameter [2:0] START_SEQUENCE = 3'd0, COUNT_8 = 3'd1, COUNT_NT = 3'd2;
 
     seq_det_pre start_seq(clk, rst, serIn, start);
 
@@ -21,7 +21,7 @@ module main_state (input clk, rst, co, serIn, output load, S, shift_en, counter_
                     ns = COUNT_NT;
                     load = 1;
                     shift_en = 0;
-                    serOutValid;
+                    serOutValid = 1;
                 end
                 else begin
                     ns = COUNT_8;
@@ -33,6 +33,8 @@ module main_state (input clk, rst, co, serIn, output load, S, shift_en, counter_
             end
             COUNT_NT: begin
                 ns = co ? START_SEQUENCE : COUNT_NT;
+                serOutValid = 1;
+                shift_en = 0;
                 load = 0;
             end
             

@@ -1,1 +1,210 @@
 # Loading project myshifter
+# reading /home/alireze/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project test counter and reg
+# Compile of state_machine.sv failed with 11 errors.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# 4 compiles, 1 failed with 11 errors.
+# Compile of state_machine.sv failed with 1 errors.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of state_machine.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of state_machine.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of state_machine.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of state_machine.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of state_machine.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# Compile of combinational_part.sv was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of state_machine.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# Compile of combinational_part.sv was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of state_machine.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# Compile of combinational_part.sv was successful.
+# Compile of tb.sv failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of state_machine.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# Compile of combinational_part.sv was successful.
+# Compile of tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim work.main_tb_1
+# vsim work.main_tb_1 
+# Start time: 05:04:57 on Jan 03,2024
+# Loading sv_std.std
+# Loading work.main_tb_1
+# Loading work.main_state
+# Loading work.seq_det_pre
+# Loading work.combin_test
+# Loading work.counter_8_bit
+# Loading work.pre_shift_reg_8_bit
+add wave -position end  sim:/main_tb_1/clk
+add wave -position end  sim:/main_tb_1/rst
+add wave -position end  sim:/main_tb_1/serIn
+add wave -position end  sim:/main_tb_1/load
+add wave -position end  sim:/main_tb_1/S
+add wave -position end  sim:/main_tb_1/shift_en
+add wave -position end  sim:/main_tb_1/counter_en
+add wave -position end  sim:/main_tb_1/serOutValid
+add wave -position end  sim:/main_tb_1/serOut
+add wave -position end  sim:/main_tb_1/co
+run -all
+# ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv(30)
+#    Time: 3250 ps  Iteration: 0  Instance: /main_tb_1
+# Break in Module main_tb_1 at /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv line 30
+add wave -position end  sim:/main_tb_1/myState/start
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv(30)
+#    Time: 3250 ps  Iteration: 0  Instance: /main_tb_1
+# Break in Module main_tb_1 at /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv line 30
+# Compile of state_machine.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# Compile of combinational_part.sv was successful.
+# Compile of tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.main_tb_1
+# Loading work.main_state
+# Loading work.seq_det_pre
+# Loading work.combin_test
+# Loading work.counter_8_bit
+# Loading work.pre_shift_reg_8_bit
+run -all
+# ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv(40)
+#    Time: 4650 ps  Iteration: 0  Instance: /main_tb_1
+# Break in Module main_tb_1 at /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv line 40
+# Compile of state_machine.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# Compile of combinational_part.sv was successful.
+# Compile of tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.main_tb_1
+# Loading work.main_state
+# Loading work.seq_det_pre
+# Loading work.combin_test
+# Loading work.counter_8_bit
+# Loading work.pre_shift_reg_8_bit
+run -all
+# ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv(55)
+#    Time: 7650 ps  Iteration: 0  Instance: /main_tb_1
+# Break in Module main_tb_1 at /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv line 55
+add wave -position end  sim:/main_tb_1/my_comb/myshifter/out
+restart
+run -all
+# ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv(55)
+#    Time: 7650 ps  Iteration: 0  Instance: /main_tb_1
+# Break in Module main_tb_1 at /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv line 55
+# Compile of state_machine.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# Compile of combinational_part.sv was successful.
+# Compile of tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.main_tb_1
+# Loading work.main_state
+# Loading work.seq_det_pre
+# Loading work.combin_test
+# Loading work.counter_8_bit
+# Loading work.pre_shift_reg_8_bit
+run -all
+# ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv(55)
+#    Time: 7650 ps  Iteration: 0  Instance: /main_tb_1
+# Break in Module main_tb_1 at /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv line 55
+# Compile of state_machine.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# Compile of combinational_part.sv was successful.
+# Compile of tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.main_tb_1
+# Loading work.main_state
+# Loading work.seq_det_pre
+# Loading work.combin_test
+# Loading work.counter_8_bit
+# Loading work.pre_shift_reg_8_bit
+run -all
+# ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv(55)
+#    Time: 7650 ps  Iteration: 0  Instance: /main_tb_1
+# Break in Module main_tb_1 at /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv line 55
+# Compile of state_machine.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# Compile of combinational_part.sv was successful.
+# Compile of tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.main_tb_1
+# Loading work.main_state
+# Loading work.seq_det_pre
+# Loading work.combin_test
+# Loading work.counter_8_bit
+# Loading work.pre_shift_reg_8_bit
+run -all
+# ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv(55)
+#    Time: 7650 ps  Iteration: 0  Instance: /main_tb_1
+# Break in Module main_tb_1 at /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv line 55
+# Compile of state_machine.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of shift_reg.sv was successful.
+# Compile of 1.sv was successful.
+# Compile of combinational_part.sv was successful.
+# Compile of tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.main_tb_1
+# Loading work.main_state
+# Loading work.seq_det_pre
+# Loading work.combin_test
+# Loading work.counter_8_bit
+# Loading work.pre_shift_reg_8_bit
+run -all
+# ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv(56)
+#    Time: 7450 ps  Iteration: 0  Instance: /main_tb_1
+# Break in Module main_tb_1 at /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv line 56
