@@ -1,9 +1,15 @@
-module comb_part (input clk, rst, counter_en, sel_1, sel_2, sel_x, sel_t, load_x, load_m, load_t, mode, input [15:0] inX, inY, output [15:0] out, output gt);
+module comb_part (input clk, rst, counter_en, sel_1, sel_2, sel_x, sel_t, load_x, load_m, load_t, mode, input [15:0] inX, inY, output [15:0] out, output gt, lsb_counter);
 
+    wire [7:0] lut_w;
     wire [31:0] mult_w;
-    wire [15:0] lut_w, add_w;
+    wire [15:0] add_w;
     wire [15:0] mux_1_w, mux_2_w, mux_x_w, mux_t_w;
     wire [15:0] reg_x_w, reg_m_w, reg_t_w;
+    wire [3:0] cntr_w;
+
+    my_counter #(4) cntr (clk, rst, counter_en, cntr_w);
+
+    LUT_8_bit lut (cntr_w, lut_w);
 
     mux_2_to_1 mux_2 (reg_x_w, lut, sel_2, mux_2_w);
     mux_2_to_1 mux_1 (reg_x_w, reg_m_w, sel_1, mux_1_w);
@@ -21,5 +27,6 @@ module comb_part (input clk, rst, counter_en, sel_1, sel_2, sel_x, sel_t, load_x
     greater_8_bit greater (inY, add_w, gt);
 
     assign out = add_w;
+    assign lsb_counter = cntr_w[0];
     
 endmodule
