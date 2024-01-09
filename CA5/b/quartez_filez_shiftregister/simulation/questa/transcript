@@ -208,3 +208,5 @@ run -all
 # ** Note: $stop    : /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv(56)
 #    Time: 7450 ps  Iteration: 0  Instance: /main_tb_1
 # Break in Module main_tb_1 at /home/alireze/Documents/GitHub/System-Digital/CA5/c/tb.sv line 56
+# End time: 06:58:09 on Jan 03,2024, Elapsed time: 1:53:12
+# Errors: 0, Warnings: 1
