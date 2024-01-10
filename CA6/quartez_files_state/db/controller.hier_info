@@ -1,0 +1,24 @@
+|controller
+clk => ps~1.DATAIN
+rst => ps~3.DATAIN
+start => Selector6.IN2
+start => Selector5.IN1
+start => ns.LOAD_XT.DATAB
+gt => Selector3.IN3
+gt => Selector5.IN3
+gt => ns.LOAD_MULTI.DATAB
+lsb_counter => ns.LOAD_SUB_ADD.DATAB
+lsb_counter => Selector7.IN2
+counter_en <= counter_en.DB_MAX_OUTPUT_PORT_TYPE
+sel_1 <= sel_1$latch.DB_MAX_OUTPUT_PORT_TYPE
+sel_2 <= sel_2$latch.DB_MAX_OUTPUT_PORT_TYPE
+sel_x <= sel_x$latch.DB_MAX_OUTPUT_PORT_TYPE
+sel_t <= sel_t$latch.DB_MAX_OUTPUT_PORT_TYPE
+load_x <= load_x.DB_MAX_OUTPUT_PORT_TYPE
+load_m <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+load_t <= load_t.DB_MAX_OUTPUT_PORT_TYPE
+mode <= mode.DB_MAX_OUTPUT_PORT_TYPE
+done <= done$latch.DB_MAX_OUTPUT_PORT_TYPE
+rst_w <= rst_w.DB_MAX_OUTPUT_PORT_TYPE
+
+

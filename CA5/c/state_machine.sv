@@ -1,4 +1,4 @@
-module main_state (input clk, rst, co, serIn, output logic load, S, shift_en, counter_en, serOutValid);
+module main_staste (input clk, rst, co, serIn, output logic load, S, shift_en, counter_en, serOutValid);
     logic [2:0] ps, ns;
     wire start;
     parameter [2:0] START_SEQUENCE = 3'd0, COUNT_8 = 3'd1, COUNT_NT = 3'd2;

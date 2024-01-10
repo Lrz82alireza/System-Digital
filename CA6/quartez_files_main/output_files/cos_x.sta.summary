@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 125C Model Setup 'clk'
+Slack : -10.267
+TNS   : -283.104
+
+Type  : Slow 1200mV 125C Model Setup 'controller:controller_|ps~4'
+Slack : -5.266
+TNS   : -16.418
+
+Type  : Slow 1200mV 125C Model Hold 'controller:controller_|ps~4'
+Slack : 0.072
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'clk'
+Slack : 0.425
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Recovery 'clk'
+Slack : -2.713
+TNS   : -134.407
+
+Type  : Slow 1200mV 125C Model Removal 'clk'
+Slack : 0.425
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -106.992
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'controller:controller_|ps~4'
+Slack : 0.267
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Setup 'clk'
+Slack : -8.690
+TNS   : -240.179
+
+Type  : Slow 1200mV -40C Model Setup 'controller:controller_|ps~4'
+Slack : -4.647
+TNS   : -14.267
+
+Type  : Slow 1200mV -40C Model Hold 'controller:controller_|ps~4'
+Slack : 0.038
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'clk'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Recovery 'clk'
+Slack : -2.263
+TNS   : -111.891
+
+Type  : Slow 1200mV -40C Model Removal 'clk'
+Slack : 0.369
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -87.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'controller:controller_|ps~4'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Setup 'clk'
+Slack : -4.240
+TNS   : -103.662
+
+Type  : Fast 1200mV -40C Model Setup 'controller:controller_|ps~4'
+Slack : -2.268
+TNS   : -6.855
+
+Type  : Fast 1200mV -40C Model Hold 'controller:controller_|ps~4'
+Slack : 0.047
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'clk'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Recovery 'clk'
+Slack : -0.815
+TNS   : -38.718
+
+Type  : Fast 1200mV -40C Model Removal 'clk'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -60.240
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'controller:controller_|ps~4'
+Slack : 0.366
+TNS   : 0.000
+
+------------------------------------------------------------

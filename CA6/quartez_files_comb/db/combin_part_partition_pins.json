@@ -1,0 +1,221 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out[8]",
+					"strict" : false
+				},
+				{
+					"name" : "out[9]",
+					"strict" : false
+				},
+				{
+					"name" : "out[10]",
+					"strict" : false
+				},
+				{
+					"name" : "out[11]",
+					"strict" : false
+				},
+				{
+					"name" : "out[12]",
+					"strict" : false
+				},
+				{
+					"name" : "out[13]",
+					"strict" : false
+				},
+				{
+					"name" : "out[14]",
+					"strict" : false
+				},
+				{
+					"name" : "out[15]",
+					"strict" : false
+				},
+				{
+					"name" : "gt",
+					"strict" : false
+				},
+				{
+					"name" : "lsb_counter",
+					"strict" : false
+				},
+				{
+					"name" : "inY[7]",
+					"strict" : false
+				},
+				{
+					"name" : "inY[6]",
+					"strict" : false
+				},
+				{
+					"name" : "inY[5]",
+					"strict" : false
+				},
+				{
+					"name" : "inY[4]",
+					"strict" : false
+				},
+				{
+					"name" : "inY[3]",
+					"strict" : false
+				},
+				{
+					"name" : "inY[2]",
+					"strict" : false
+				},
+				{
+					"name" : "inY[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inY[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "mode",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "sel_t",
+					"strict" : false
+				},
+				{
+					"name" : "load_t",
+					"strict" : false
+				},
+				{
+					"name" : "counter_en",
+					"strict" : false
+				},
+				{
+					"name" : "sel_2",
+					"strict" : false
+				},
+				{
+					"name" : "load_m",
+					"strict" : false
+				},
+				{
+					"name" : "sel_1",
+					"strict" : false
+				},
+				{
+					"name" : "inX[9]",
+					"strict" : false
+				},
+				{
+					"name" : "sel_x",
+					"strict" : false
+				},
+				{
+					"name" : "load_x",
+					"strict" : false
+				},
+				{
+					"name" : "inX[8]",
+					"strict" : false
+				},
+				{
+					"name" : "inX[7]",
+					"strict" : false
+				},
+				{
+					"name" : "inX[6]",
+					"strict" : false
+				},
+				{
+					"name" : "inX[4]",
+					"strict" : false
+				},
+				{
+					"name" : "inX[3]",
+					"strict" : false
+				},
+				{
+					"name" : "inX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "inX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inX[5]",
+					"strict" : false
+				},
+				{
+					"name" : "inX[11]",
+					"strict" : false
+				},
+				{
+					"name" : "inX[10]",
+					"strict" : false
+				},
+				{
+					"name" : "inX[13]",
+					"strict" : false
+				},
+				{
+					"name" : "inX[12]",
+					"strict" : false
+				},
+				{
+					"name" : "inX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "inX[14]",
+					"strict" : false
+				},
+				{
+					"name" : "inX[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

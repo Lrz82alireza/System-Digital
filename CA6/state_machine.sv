@@ -1,4 +1,4 @@
-module controller (input clk, rst, start, gt, lsb_counter, output logic counter_en, sel_1, sel_2, sel_x, sel_t, load_x, load_m, load_t, mode, done);
+module controller (input clk, rst, start, gt, lsb_counter, output logic counter_en, sel_1, sel_2, sel_x, sel_t, load_x, load_m, load_t, mode, done, rst_w);
     logic [3:0] ps, ns;
     parameter [3:0] IDLE = 4'd0, INIT_X = 4'd1, LOAD_XT = 4'd2, LOAD_X2_IN_M = 4'd3, LOAD_X2 = 4'd4,
     INIT_FRAC = 4'd5, LOAD_FRAC = 4'd6, LOAD_SUB_ADD = 4'd7, LOAD_MULTI = 4'd8;   
@@ -7,9 +7,13 @@ module controller (input clk, rst, start, gt, lsb_counter, output logic counter_
         ns = IDLE;
         
         counter_en = 1'b0; load_m = 1'b0; load_x = 1'b0; load_t = 1'b0; mode = 1'b0; 
+        rst_w = 1'b0;
 
         case (ps)
-            IDLE: ns = start ? INIT_X : IDLE;
+            IDLE: begin
+                ns = start ? INIT_X : IDLE;
+                rst_w = 1'b1;
+            end 
 
             INIT_X: begin
                 ns = start ? INIT_X : LOAD_XT;
@@ -39,7 +43,7 @@ module controller (input clk, rst, start, gt, lsb_counter, output logic counter_
             INIT_FRAC: begin
                 ns = LOAD_FRAC;
             
-                sel_1 = 1'b1; sel_2 = 1'b1; sel_t = 1'b0;
+                sel_1 = 1'b1; sel_2 = 1'b1; sel_t = 1'b1;
                 counter_en = 1'b1;
             end
 
@@ -50,7 +54,7 @@ module controller (input clk, rst, start, gt, lsb_counter, output logic counter_
             end
 
             LOAD_SUB_ADD: begin
-                if (gt == 1'b0) begin
+                if (gt == 1'b1) begin
                     ns = IDLE;
 
                     done = 1'b1;

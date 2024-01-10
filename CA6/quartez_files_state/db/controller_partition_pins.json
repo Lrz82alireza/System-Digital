@@ -1,0 +1,73 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "counter_en",
+					"strict" : false
+				},
+				{
+					"name" : "sel_1",
+					"strict" : false
+				},
+				{
+					"name" : "sel_2",
+					"strict" : false
+				},
+				{
+					"name" : "sel_x",
+					"strict" : false
+				},
+				{
+					"name" : "sel_t",
+					"strict" : false
+				},
+				{
+					"name" : "load_x",
+					"strict" : false
+				},
+				{
+					"name" : "load_m",
+					"strict" : false
+				},
+				{
+					"name" : "load_t",
+					"strict" : false
+				},
+				{
+					"name" : "mode",
+					"strict" : false
+				},
+				{
+					"name" : "done",
+					"strict" : false
+				},
+				{
+					"name" : "rst_w",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "start",
+					"strict" : false
+				},
+				{
+					"name" : "lsb_counter",
+					"strict" : false
+				},
+				{
+					"name" : "gt",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

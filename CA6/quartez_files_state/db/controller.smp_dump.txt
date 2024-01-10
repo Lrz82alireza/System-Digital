@@ -1,0 +1,12 @@
+
+State Machine - |controller|ps
+Name ps~7 ps~6 ps~5 ps~4 
+ps.IDLE 0 0 0 0 
+ps.INIT_X 0 0 0 1 
+ps.LOAD_XT 0 0 1 0 
+ps.LOAD_X2_IN_M 0 0 1 1 
+ps.LOAD_X2 0 1 0 0 
+ps.INIT_FRAC 0 1 0 1 
+ps.LOAD_FRAC 0 1 1 0 
+ps.LOAD_SUB_ADD 0 1 1 1 
+ps.LOAD_MULTI 1 0 0 0 
